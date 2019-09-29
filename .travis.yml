@@ -4,6 +4,8 @@ node_js: stable
 # S: Build Lifecycle
 install:
   - npm install
+  - npm install hexo-renderer-pug --save
+  - npm install hexo-renderer-sass --save
 
 
 #before_script:
