@@ -1,1 +1,3 @@
-<%- partial('_partial/archive', {pagination: 2, index: true}) %>
+<% if(is_home()) {%>
+    <%- partial('_page/profile') %>
+<%}%>
