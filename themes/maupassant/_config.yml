@@ -58,7 +58,7 @@ donate:
 post_copyright:
   enable: true ## If you want to display the copyright info after each post, please set the value to true and fill the following items on your need.
   author: api2u 
-  copyright_text: 除非额外注明外，本站文章均为 api2u 原创，转载请注明出处。  
+  copyright_text: 除非额外注明，本站文章均为 api2u 原创，转载请注明出处。  
 
 menu:
   - page: home
