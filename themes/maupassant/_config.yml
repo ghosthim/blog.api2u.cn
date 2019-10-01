@@ -48,7 +48,7 @@ canvas_nest:
   zIndex: ## The z-index property of the background, e.g. "-1"
   count: ## Quantity of lines, e.g. "150"
 donate:
-  enable: true ## If you want to display the donate button after each post, please set the value to true and fill the following items on your need. You can also enable donate button in a page by adding a "donate: true" item to the front-matter.
+  enable: false ## If you want to display the donate button after each post, please set the value to true and fill the following items on your need. You can also enable donate button in a page by adding a "donate: true" item to the front-matter.
   github: ## GitHub URL, e.g. https://github.com/Kaiyuan/donate-page
   alipay_qr: /images/alipay.jpg
   wechat_qr: /images/wechatpay.jpg
@@ -56,9 +56,9 @@ donate:
   btc_key: ## Bitcoin key, e.g. 1KuK5eK2BLsqpsFVXXSBG5wbSAwZVadt6L
   paypal_url: ## Paypal URL, e.g. https://www.paypal.me/tufu9441
 post_copyright:
-  enable: false ## If you want to display the copyright info after each post, please set the value to true and fill the following items on your need.
-  author: ## Your author name, e.g. tufu9441
-  copyright_text: ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
+  enable: true ## If you want to display the copyright info after each post, please set the value to true and fill the following items on your need.
+  author: api2u 
+  copyright_text: 除非额外注明外，本站文章均为 api2u 原创，转载请注明出处。  
 
 menu:
   - page: home
@@ -95,9 +95,9 @@ links:
 
 timeline:
   - num: 1
-    word: Update 2019/4/7 域名 DNS 解析由原注册商 [namecheap](http://www.namecheap.com) 更换到国内解析商 CloudXNS
+    word: Update 2019/4/7 域名 DNS 解析由原注册商 namecheap 更换到国内解析商 CloudXNS
   - num: 2
-    word: Update 2019/4/12 部署空间由 GitHub  Page 迁移至 Netlify ，原：随着 GitHub Page 空间的滥用，中国大陆境内访问有几率访问失败，我受到 [Yihui的文章](https://yihui.name/en/2017/06/netlify-instead-of-github-pages/) 的启发，决定使用 Netlify，希望能给改善在大陆境内的访问体验。
+    word: Update 2019/4/12 部署空间由 GitHub  Page 迁移至 Netlify ，原：随着 GitHub Page 空间的滥用，中国大陆境内访问有几率访问失败，我受到 Yihui的文章的启发，决定使用 Netlify，希望能给改善在大陆境内的访问体验。
   - num: 3
     word: Update 2019/6/14 由于 Netlify 绑定顶级域名时只能用 CNAME ，而这会使得顶级域名的 Mail 服务器冲突，故更换博客域名由 youngje.me -> blog.youngje.me
   - num: 4

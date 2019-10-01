@@ -4,6 +4,7 @@ title: About
 description: 打码改变世界
 keywords: Youngje Lee, 荣基, api2u
 comments: true
+donate: true
 menu: 关于
 permalink: /about/
 ---
