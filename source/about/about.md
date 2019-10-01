@@ -7,7 +7,7 @@ comments: true
 menu: 关于
 permalink: /about/
 ---
-
+##关于 api2u
 
 我是 api2u 。
 
@@ -17,4 +17,5 @@ permalink: /about/
 
 ## 联系
 
-* Email:me#api2u.cn(use @ replace #)
+* Email: me#api2u.cn (use @ replace #)
+* Telegram: [api2u](https://t.me/api2u)
