@@ -8,7 +8,7 @@ donate: true
 menu: 关于
 permalink: /about/
 ---
-##关于 api2u
+## 关于 api2u
 
 我是 api2u 。
 
