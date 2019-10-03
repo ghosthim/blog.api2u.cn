@@ -76,6 +76,9 @@ menu:
   - page: rss
     directory: atom.xml
     icon: fa-rss
+  - page: movies
+    directory: movies/
+    icon: fa-bookmark
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search
