@@ -101,7 +101,7 @@ douban:
  #   quote: 'This is my book quote'
   movie:
     title: '我都看过啥'
-    quote: '看过这些'
+    quote: <div class="note success no-icon"><p>看过这些噶 :D </p></div>
  # game:
  #   title: 'This is my game title'
  #   quote: 'This is my game quote'
