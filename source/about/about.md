@@ -23,4 +23,6 @@ permalink: /about/
 
 ## 博客部署状态
 
-[![Build Status](https://travis-ci.org/ghosthim/blog.api2u.cn.svg?branch=master)](https://travis-ci.org/ghosthim/blog.api2u.cn)
+需要 FQ 可查看状态。
+
+[![Build Status](https://travis-ci.org/ghosthim/blog.api2u.cn.svg?branch=blog)](https://travis-ci.org/ghosthim/blog.api2u.cn)
