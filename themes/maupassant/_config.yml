@@ -75,7 +75,7 @@ menu:
     icon: fa-user
   - page: E
     directory: categories/english
-    icon: frown-o
+    icon: fa-frown-o
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search
