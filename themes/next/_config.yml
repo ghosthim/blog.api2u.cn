@@ -96,7 +96,7 @@ menu:
   #tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
-  movies: /movies/ || movies
+  movies: /movies/ || bookmark
   #schedule: /schedule/ || calendar
   about: /about/ || user
   #sitemap: /sitemap.xml || sitemap
@@ -250,7 +250,7 @@ alipay: /images/alipay.jpg
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -348,7 +348,7 @@ mathjax:
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
-han: false
+han: true
 
 # Swiftype Search API Key
 #swiftype_key:
