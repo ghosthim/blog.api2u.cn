@@ -1,6 +1,6 @@
 ---
 layout: page
-title: English essays here.
+title: English
 date: 2019-10-10
 description: For CET
 ---
