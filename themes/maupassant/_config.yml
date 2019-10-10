@@ -74,7 +74,7 @@ menu:
     directory: about/
     icon: fa-user
   - page: E
-    directory: categories/english
+    directory: english
     icon: fa-frown-o
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
