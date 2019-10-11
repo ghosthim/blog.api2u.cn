@@ -2,7 +2,7 @@
 layout: post
 title: Shoot By iPhone
 date: 2019-10-04 19:16:05
-categories: Blog
+category: Blog
 description: Shoot By iPhone 8 Plus,注意可能包含未压缩图片,且经过调色。
 keywords: Blog, iPhone, shoot, photos
 

@@ -2,7 +2,7 @@
 layout: post
 title: Hello world,Hello Blog.
 date: 2019-01-26
-categories: Blog
+category: Blog
 description: 纪念新博客
 keywords: 2018, BLOG
 ---
