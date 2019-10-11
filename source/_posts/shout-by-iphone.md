@@ -12,7 +12,7 @@ keywords: Blog, iPhone, shoot, photos
 
 
 
-![1.jpg](/images/posts/rainyday/1.jpg)
+![1.jpg](https://i.loli.net/2019/10/11/g4Fbc9RkUT7wma5.jpg)
 
-![2.png](/images/posts/rainyday/2.png)
+![2.png](https://cdn0.leeskill.tech/2.png)
 
