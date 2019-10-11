@@ -97,6 +97,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   movies: /movies/ || bookmark
+  E: /categories/English/ || archive
   #schedule: /schedule/ || calendar
   about: /about/ || user
   #sitemap: /sitemap.xml || sitemap
