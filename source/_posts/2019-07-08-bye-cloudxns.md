@@ -2,7 +2,7 @@
 layout: post
 title: 再见 CloudXNS
 date: 2019-07-08 19:21:52
-category: Blog
+categories: Blog
 description: 没有描述
 keywords: 2019, BLOG
 ---

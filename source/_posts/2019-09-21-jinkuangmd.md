@@ -2,7 +2,7 @@
 layout: post
 title: 近况 21/9
 date: 2019/9/20 23:10:19 
-category: Blog
+categories: Blog
 description: 近况
 keywords: 2019, BLOG
 ---
