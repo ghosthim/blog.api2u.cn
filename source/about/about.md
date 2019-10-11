@@ -21,8 +21,6 @@ permalink: /about/
 * Email: me#api2u.cn (@ replace #)
 * Telegram: [api2u](https://t.me/api2u)
 
-## 博客部署状态
+## 我的其他项目
 
-需要 FQ 可查看状态。
-
-[![Build Status](https://travis-ci.org/ghosthim/blog.api2u.cn.svg?branch=blog)](https://travis-ci.org/ghosthim/blog.api2u.cn)
+[api2u.cn](http://api2u.cn)
