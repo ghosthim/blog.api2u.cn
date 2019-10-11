@@ -9,6 +9,12 @@ keywords: 网站版本更新日志
 
 # 网站更新日志 #
 
+**Update 2019/10/10: 更换博客主题为 [Next.Mist](https://github.com/iissnan/hexo-theme-next) ，以延续以往的简洁风格，还有就是「Next」的可玩性较高。**
+
+
+**Update 2019/9/29: 更换博客程序为 Hexo ，由于昨天操作的失误，导致我对 Jekyll 程序产生了很多「疑问」，正如昨天的 Bug ，所以就不敢再用了，经过翻阅很多别的博文，最后定下来用 Hexo + Travis CI 的解决方案，方案详细步骤应该会在今后出一篇文章吧，希望这一次能少点 Bug。**
+
+
 **Update 2019/9/28: 前几天我的 cn 域名备案就下来了，本来想过几天再把这个站转到新备案的域名上去，哪成想今天我在改 about 页面的时候，好像搞错了一个标点，导致我 push 到 GitHub 上去的时候，报错了，然后 Netlify 自动部署，所以也报错了，随后不管我怎么回档文件，就算是 GitHub 过了 Netlify 还是报错，故只好，转移博客到 GitHub page，更换域名到 api2u.cn ，对所有之前域名作跳转页面处理。**
 
 **Update 2019/8/11：经过多次考虑终于做出决定把我本人的网络用名归到一个 api2u ，故更新博客名称及相关内容。**
@@ -24,3 +30,9 @@ keywords: 网站版本更新日志
 
 
 **Update 2019/4/7：域名 DNS 解析由原注册商 [namecheap](http://www.namecheap.com) 更换到国内解析商 CloudXNS** 
+
+**Update 2019/3/27: 用自己拿到的第一个[非免费顶级域名](http://youngje.me)作为该博客的域名。**
+
+**Update 2019/2/7: 写了第一篇[文章](https://github.com/ghosthim/ghosthim1.github.io/blob/a524941bc12bc57af4d3d9137a63575cd33d6b58/_posts/2019-01-26-Hey-my-new-blog.md)，正式开启了在 GitHub写博文的路程。**
+
+**Update 2019/1/26: 这一天我第一次在 GitHub 搭建了博客，并将其取名为「年轻的木子」，所用域名为 GitHub 提供的免费二级域名。**
