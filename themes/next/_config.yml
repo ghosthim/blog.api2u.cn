@@ -310,7 +310,7 @@ font:
   global:
     external: true
     family: Source Sans Pro
-    size:
+    size: 19
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
   # Fallback to `global` font settings.
