@@ -308,7 +308,7 @@ font:
 
   # Global font settings used on <body> element.
   global:
-    external: true
+    external: false
     family: Source Sans Pro
     size: 
 
@@ -350,7 +350,7 @@ mathjax:
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
-han: false
+han: true
 
 # Swiftype Search API Key
 #swiftype_key:
