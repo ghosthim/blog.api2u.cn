@@ -322,7 +322,7 @@ font:
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
-    external: true
+    external: false
     family: Source Sans Pro
 
   # Font settings for Logo.
