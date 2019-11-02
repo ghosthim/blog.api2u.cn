@@ -322,7 +322,7 @@ font:
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
-    external: false
+    external: true
     family: Source Sans Pro
 
   # Font settings for Logo.
@@ -657,7 +657,7 @@ tabs:
 
 # Use velocity to animate everything.
 motion:
-  enable: true
+  enable: false
   async: false
   transition:
     # Transition variants:
