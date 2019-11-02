@@ -330,7 +330,7 @@ font:
   logo:
     external: true
     family: Source Code Pro
-    size: 24
+    size: 34
 
   # Font settings for <code> and code blocks.
   codes:
