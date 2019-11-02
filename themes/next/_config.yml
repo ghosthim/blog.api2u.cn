@@ -316,14 +316,14 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: false
-    family: Source Han Sans
+    family: Source Sans Pro
     size: 
 
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
     external: true
-    family: Source Han Sans
+    family: Source Sans Pro
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
