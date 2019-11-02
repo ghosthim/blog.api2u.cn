@@ -315,15 +315,15 @@ font:
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
   # Fallback to `global` font settings.
   headings:
-    external: false
-    family:
-    size:
+    external: true
+    family: Source Han Sans
+    size: 
 
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
-    external: false
-    family:
+    external: true
+    family: Source Han Sans
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
