@@ -8,9 +8,14 @@ donate: true
 menu: 关于
 permalink: /about/
 ---
+
+「夕阳无限好」
+![](https://tva1.sinaimg.cn/large/007X8olVly1g8mf4yvxybj31400u01ky.jpg)
+
+
 ## 关于 api2u
 
-我是 api2u 。
+我是 api2u 。![](https://tva1.sinaimg.cn/large/007X8olVly1g8mfiwjvucj3046038wej.jpg)
 
 喜欢自由，热爱自由。
 
@@ -18,9 +23,11 @@ permalink: /about/
 
 ## 联系
 
+不推荐使用即時聊天軟體，有事請聯繫 email ，看到會在第一時間回覆。
+
 * Email: me#api2u.cn (@ replace #)
 * Telegram: [api2u](https://t.me/api2u)
 
 ## 我的其他项目
 
-[api2u.cn](http://api2u.cn)
+   ➡️[api2u.cn](http://api2u.cn)⬅️
