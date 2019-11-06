@@ -34,4 +34,4 @@ permalink: /about/
 
 ## 我的其他项目
 
-   ➡️[api2u.cn](http://api2u.cn)⬅️
+ 参照个人主页[api2u.cn](http://api2u.cn)的其他相关项目。
