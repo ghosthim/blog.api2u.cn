@@ -17,16 +17,20 @@ permalink: /about/
 
 我是 api2u 。![](https://tva1.sinaimg.cn/large/007X8olVly1g8mfiwjvucj3046038wej.jpg)
 
-喜欢自由，热爱自由。
+一个喜欢政治的理工科学生。
+
+现就读于 QLU 
 
 展现出自己最真实的一面，做最好的自己。
 
 ## 联系
 
-不推荐使用即時聊天軟體，有事請聯繫 email ，看到會在第一時間回覆。
+不推荐使用即时聊天，有事请联系 email ，看到会在第一时间回覆。
 
-* Email: me#api2u.cn (@ replace #)
-* Telegram: [api2u](https://t.me/api2u)
+
+![](https://i.loli.net/2019/11/07/HGzNXroKaUymqIw.jpg)
+
+
 
 ## 我的其他项目
 
