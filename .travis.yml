@@ -1,10 +1,9 @@
 language: node_js
-node_js: stable
+node_js: 12
 
 # S: Build Lifecycle
 install:
   - npm install
-  - npm install hexo-renderer-pug --save
   - npm install hexo-generator-feed
   - npm install hexo-douban --save
   - npm install hexo-wordcount --save
