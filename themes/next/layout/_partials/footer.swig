@@ -17,7 +17,7 @@
         </a>
     </span>
   {% endif %}
-   <span class="beian" style="margin-right: 10px;"><a href="http://www.miitbeian.gov.cn/" target="_blank">&nbsp; 苏ICP备16056788号</a></span>
+   <span class="beian" style="margin-right: 10px;"><a href="http://www.miitbeian.gov.cn/" target="_blank">&nbsp; 鲁ICP备19029601号-2</a></span>
 </div>
 
 {% if theme.copyright %}
