@@ -4,6 +4,9 @@ node_js: 12
 # S: Build Lifecycle
 install:
   - npm install
+  
+  - npm remove hexo-generator-index
+  
   - npm install hexo-generator-feed
   - npm install hexo-douban --save
   - npm install hexo-wordcount --save
@@ -12,6 +15,7 @@ install:
  # - npm install -g gulp
 
 script:
+  - hexo cache clean
   - hexo g
   - hexo douban
 
