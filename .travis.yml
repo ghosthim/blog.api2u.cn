@@ -5,7 +5,7 @@ node_js: 12
 install:
   - npm install
   - npm install hexo
-  
+  - npm audit fix
   - npm install hexo-generator-feed
   - npm install hexo-douban --save
   - npm install hexo-wordcount --save
