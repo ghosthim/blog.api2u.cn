@@ -1,9 +1,13 @@
 language: node_js
 node_js: stable
 
+
+cache:
+  directories:
+  - node_modules #cache models to speed up the build
 before_install:
-  - node_modules
   - npm install -g hexo-cli
+
 
 
 # S: Build Lifecycle
