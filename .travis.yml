@@ -1,4 +1,4 @@
-os: darwin
+os: linux
 language: node_js
 node_js: 12
 
@@ -7,7 +7,6 @@ cache:
   directories:
   - node_modules #cache models to speed up the build
 before_install:
-  - npm install -g hexo-cli
   - rm -rf node_modules
 
 
