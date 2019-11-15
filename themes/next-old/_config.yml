@@ -309,33 +309,33 @@ font:
   # Global font settings used on <body> element.
   global:
     external: false
-    family: Source Sans Pro
+    family: Monda
     size: 
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
   # Fallback to `global` font settings.
   headings:
-    external: false
-    family: Source Sans Pro
+    external: true
+    family: Roboto Slab
     size: 
 
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
     external: true
-    family: Source Sans Pro
+    family: 
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
   logo:
     external: true
-    family: Source Code Pro
-    size: 34
+    family: Lobster Two
+    size: 24
 
   # Font settings for <code> and code blocks.
   codes:
     external: false
-    family:
+    family: PT Mono
     size:
 
 
