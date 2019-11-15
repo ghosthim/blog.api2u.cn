@@ -13,6 +13,7 @@ before_install:
 # S: Build Lifecycle
 install:
   - npm install
+  - npm install fsevents --save
   - npm install hexo-renderer-swig --save
   - npm install hexo-generator-feed
   - npm install hexo-douban --save
