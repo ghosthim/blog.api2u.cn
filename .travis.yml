@@ -14,7 +14,7 @@ before_install:
 install:
   - npm install
   - npm install hexo-renderer-swig --save
-  - npm install hexo-generator-feed
+  - npm uninstall hexo-generator-feed
   - npm install hexo-douban --save
 
 #before_script:
