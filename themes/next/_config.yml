@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.png
+favicon: /images/favicon.png
 
 # Set default keywords (Use a comma to separate)
 keywords: "Software development, python, c++, coding, Node.js, Node, hexo, DevOps, CI, CD, 运维, 分布式, 云计算"

@@ -6,6 +6,7 @@
 {% endif %}
 
 <html class="{{ html_class | lower }}" lang="{{ config.language }}">
+<meta name="referrer" content="no-referrer">
 <head>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
