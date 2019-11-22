@@ -33,7 +33,7 @@ after_script:
   - git add .
   - git commit -m "Update by travis-ci.org"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
-  - git push --force --quiet "https://dt_ZcGDek:${CO_TOKEN1}@${CO_REF}" master:master
+  - git push --force --quiet "https://gRubDUuXWX:${CO_TOKEN2}@${CO_REF}" master:master
 # E: Build LifeCycle
 
 branches:
@@ -42,4 +42,4 @@ branches:
 env:
  global:
    - GH_REF: github.com/ghosthim/blog.api2u.cn.git
-   - CO_REF: git.coding.net/ghosthim/blog.api2u.cn.git
+   - CO_REF: e.coding.net/api2u/blog.api2u.cn/blog.git
