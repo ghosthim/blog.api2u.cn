@@ -30,6 +30,7 @@ skip_render:
   - CNAME
   - 'images/**'
   - README.md
+  - atom.xml
 
 
 # Writing
