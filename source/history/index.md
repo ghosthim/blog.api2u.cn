@@ -10,7 +10,7 @@ keywords: 网站版本更新日志
 # 网站更新日志 #
 
 
-**Update 2019/11/26: 彻底脱离图床 [sm.ms](https//sm.ms) ，本博客开始使用自建 阿里对象存储OSS 存储图片及一些重要的静态资源，并开启 [img.api2u.cn](img.api2u.cn) 作为其域名，对大陆地区开启加速。**
+**Update 2019/11/26: 彻底脱离图床 [sm.ms](https://sm.ms) ，本博客开始使用自建 阿里对象存储OSS 存储图片及一些重要的静态资源，并开启 [img.api2u.cn](https://img.api2u.cn) 作为其域名，对大陆地区开启加速。**
 
 
 **Update 2019/10/10: 更换博客主题为 [Next.Mist](https://github.com/iissnan/hexo-theme-next) ，以延续以往的简洁风格，还有就是「Next」的可玩性较高。**
