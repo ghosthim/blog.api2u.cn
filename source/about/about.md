@@ -19,6 +19,8 @@ permalink: /about/
 
 一个喜欢政治的理工科学生。
 
+喜欢 Jazz Hiphop 。
+
 现就读于 QLU 
 
 展现出自己最真实的一面，做最好的自己。
