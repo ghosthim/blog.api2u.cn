@@ -30,7 +30,7 @@ skip_render:
   - CNAME
   - 'images/**'
   - README.md
-  - atom.xml
+  - atom.html
 
 
 # Writing
@@ -91,7 +91,7 @@ plugins:
 #Feed Atom
 feed:
     type: atom
-    path: atom.xml
+    path: atom.html
     limit: 20
 
 douban:
