@@ -40,3 +40,5 @@ keywords: 网站版本更新日志
 **Update 2019/2/7: 写了第一篇[文章](https://github.com/ghosthim/ghosthim1.github.io/blob/a524941bc12bc57af4d3d9137a63575cd33d6b58/_posts/2019-01-26-Hey-my-new-blog.md)，正式开启了在 GitHub写博文的路程。**
 
 **Update 2019/1/26: 这一天我第一次在 GitHub 搭建了博客，并将其取名为「年轻的木子」，所用域名为 GitHub 提供的免费二级域名。**
+
+**Update 2015/6: 博客之旅的起源，详细信息以无从考证，旧的数据存档(http://old.api2u.cn)**
