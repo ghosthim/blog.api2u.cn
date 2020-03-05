@@ -30,7 +30,9 @@ permalink: /about/
 不推荐使用即时聊天，有事请联系 email ，看到会在第一时间回覆。
 
 
-![](https://i.loli.net/2019/11/07/HGzNXroKaUymqIw.jpg)
+
+![](https://img.api2u.cn/2020/03/05/15834156187945.jpg)
+
 
 
 
