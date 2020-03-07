@@ -4,7 +4,7 @@
 
 # Site
 title: api2u's Blog
-subtitle: 👾
+subtitle: :D
 description: "👾"
 keywords:
 author: api2u
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.api2u.cn
+url: https://blog.api2u.me
 root: /
 permalink: :title.html
 permalink_defaults:
