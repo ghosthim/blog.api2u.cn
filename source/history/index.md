@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BLOG更新日志
+title: History
 categories: Blog
 description: 网站版本更新日志
 keywords: 网站版本更新日志

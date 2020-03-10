@@ -112,3 +112,9 @@ douban:
  #   title: 'This is my game title'
  #   quote: 'This is my game quote'
   timeout: 10000 
+  
+# For syntax highlighting
+prism_plugin:
+  mode: 'preprocess'
+  theme: 'default'
+  line_number: true 
