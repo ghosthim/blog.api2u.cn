@@ -8,7 +8,7 @@ subtitle: :D
 description: "👾"
 keywords:
 author: api2u
-language: zh-Hans
+language: zh-cn
 timezone:
 
 # URL
@@ -44,7 +44,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace:
@@ -78,7 +78,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: typography
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -87,11 +87,16 @@ deploy:
 
 # Extensions
 plugins:
+    hexo-generator-category-enhance
+    hexo-generator-feed
+    hexo-asset-image
+    hexo-prism-plugin
+    hexo-toc
     hexo-generator-feed
 #Feed Atom
 feed:
     type: atom
-    path: atom.html
+    path: atom.xml
     limit: 20
 
 douban:

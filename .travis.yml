@@ -13,8 +13,11 @@ before_install:
 # S: Build Lifecycle
 install:
   - npm install
-  - npm install hexo-renderer-swig --save
-  - npm uninstall hexo-generator-feed
+#  - npm install hexo-renderer-swig --save
+  - npm uninstall --save hexo-generator-category # 此处我们使用 hexo-generator-category-enhance
+  - npm install --save hexo-renderer-jade hexo-generator-archive hexo-generator-category-enhance hexo-generator-feed hexo-generator-tag
+  - npm install --save hexo-prism-plugin # 语法高亮支持
+#  - npm uninstall hexo-generator-feed
   - npm install hexo-douban --save
 
 #before_script:
