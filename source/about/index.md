@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 关于
 description: 打码改变世界
 comments: true
 ---
