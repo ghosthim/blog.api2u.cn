@@ -42,6 +42,9 @@ div#site-nav.site-title-links
             if theme.rss
                 a(href=config.url + "/" + theme.rss, target="_blank", rel="noopener noreferrer")
                     i.fa.fa-rss &nbsp;
+            if theme.douban
+                a(href=config.url + "/" + theme.douban, target="_blank", rel="noopener noreferrer")
+                    i.fa.fa-check-square &nbsp
     div.visible-lg.visible-md.visible-sm.site-nav-footer
         br.site-nav-footer-br
         include footer
