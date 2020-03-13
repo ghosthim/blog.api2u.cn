@@ -18,18 +18,29 @@ install:
   - npm install --save hexo-prism-plugin # 语法高亮支持
 # - npm uninstall hexo-generator-feed
   - npm install hexo-douban --save
-  - npm install ali-oss
 # - npm install hexo-deployer-ali-oss --save
 
 
-#before_script:
- # - npm install -g gulp
+before_script:
+  - cd ./tools
+  ## 下载阿里云 OSS Linux 客户端
+  - wget -nc https://liuhu-img.oss-cn-hongkong.aliyuncs.com/common/deploy/ossutil64
+  - chmod 755 ossutil64
+  ## 配置 OSS 客户端, 包括 OSS 地址，accessKeyID accessKeySecret，使用方式可以参考 https://www.alibabacloud.com/help/zh/doc-detail/50452.htm
+  - ./ossutil64 config -e "oss-cn-hongkong.aliyuncs.com" -i "${UPTOC_UPLOADER_KEYID}" -k "${UPTOC_UPLOADER_KEYID}"
+  ## 替换 Hexo 插件，使其支持静态部署
+  - cd ../node_modules/hexo/lib/plugins/helper
+  - wget -N https://liuhu-img.oss-cn-hongkong.aliyuncs.com/common/deploy/list_categories.js
+  - wget -N https://liuhu-img.oss-cn-hongkong.aliyuncs.com/common/deploy/list_tags.js
+  - wget -N https://liuhu-img.oss-cn-hongkong.aliyuncs.com/common/deploy/paginator.js
+  - wget -N https://liuhu-img.oss-cn-hongkong.aliyuncs.com/common/deploy/tagcloud.js
+  - cd -
+  - cd ..
 
 script:
   - hexo cache clean
   - hexo g
   - hexo douban
-  - node depoly-to-oss.js
 
 
 after_script:
@@ -41,6 +52,13 @@ after_script:
   - git commit -m "Update by travis-ci.org"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
   - git push --force --quiet "https://gRubDUuXWX:${CO_TOKEN2}@${CO_REF}" master:master
+
+    ## 打包静态文件
+  - zip -r blog.zip ./*
+  ## 删除OSS上旧文件
+  - ../tools/ossutil64 rm oss://api2u-blog/ -r -f
+  ## 上传zip文件
+  - ../tools/ossutil64 cp -f blog.zip oss://api2u-blog/
   
 # E: Build LifeCycle
 
