@@ -59,7 +59,7 @@ after_script:
   ## 删除OSS上旧文件
   - ../tools/ossutil64 rm oss://api2u-blog/ -r -f
   ## 上传zip文件
-  - ../tools/ossutil64 cp -f ./ oss://api2u-blog/
+  - ../tools/ossutil64 cp -f -r ./ oss://api2u-blog/
   
 # E: Build LifeCycle
 
