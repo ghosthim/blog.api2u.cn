@@ -29,7 +29,7 @@ script:
   - hexo cache clean
   - hexo g
   - hexo douban
-  - node ./public/depoly-to-oss.js
+  - node depoly-to-oss.js
 
 
 after_script:
