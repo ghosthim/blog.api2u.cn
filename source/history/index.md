@@ -7,7 +7,9 @@ description: 网站版本更新日志
 
 # 网站更新日志 #
 
-**Update 2020/3/7: 本站正式更换域名为 [blog.api2u.me](blog.api2u.me)，为保证百度、谷歌等搜索引擎的收录，仍可通过 .cn 进行访问。**
+**Update 2020/3/13: [blog.api2u.me](https://blog.api2u.me) 自即日起将解析到阿里云香港 OSS 空间，总体提升访问速度。**
+
+**Update 2020/3/7: 本站正式更换域名为 [blog.api2u.me](https://blog.api2u.me)，为保证百度、谷歌等搜索引擎的收录，仍可通过 .cn 进行访问。**
 
 
 
