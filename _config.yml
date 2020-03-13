@@ -96,7 +96,11 @@ theme: typography
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: ali-oss
+  region: oss-cn-hangzhou
+  accessKeyId: ${UPTOC_UPLOADER_KEYID}
+  accessKeySecret: ${UPTOC_UPLOADER_KEYSECRET}
+  bucket: testwp1122
 
 # Extensions
 plugins:

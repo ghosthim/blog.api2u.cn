@@ -12,12 +12,14 @@ before_install:
 # S: Build Lifecycle
 install:
   - npm install
-#  - npm install hexo-renderer-swig --save
+# - npm install hexo-renderer-swig --save
   - npm uninstall --save hexo-generator-category # 此处我们使用 hexo-generator-category-enhance
   - npm install --save hexo-renderer-jade hexo-generator-archive hexo-generator-category-enhance hexo-generator-feed hexo-generator-tag
   - npm install --save hexo-prism-plugin # 语法高亮支持
-#  - npm uninstall hexo-generator-feed
+# - npm uninstall hexo-generator-feed
   - npm install hexo-douban --save
+  - npm install hexo-deployer-ali-oss --save
+
 
 #before_script:
  # - npm install -g gulp
@@ -26,6 +28,8 @@ script:
   - hexo cache clean
   - hexo g
   - hexo douban
+  - hexo d
+
 
 after_script:
   - cd ./public
@@ -36,8 +40,7 @@ after_script:
   - git commit -m "Update by travis-ci.org"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
   - git push --force --quiet "https://gRubDUuXWX:${CO_TOKEN2}@${CO_REF}" master:master
-  - curl -sSf http://uptoc.saltbo.cn/install.sh | sh
-  - uptoc --endpoint oss-cn-hangzhou.aliyuncs.com --bucket testwp1122 ./public
+  
 # E: Build LifeCycle
 
 branches:
