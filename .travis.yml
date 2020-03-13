@@ -18,7 +18,8 @@ install:
   - npm install --save hexo-prism-plugin # 语法高亮支持
 # - npm uninstall hexo-generator-feed
   - npm install hexo-douban --save
-  - npm install hexo-deployer-ali-oss --save
+  - npm install ali-oss
+# - npm install hexo-deployer-ali-oss --save
 
 
 #before_script:
@@ -28,7 +29,6 @@ script:
   - hexo cache clean
   - hexo g
   - hexo douban
-  - hexo deploy
 
 
 after_script:

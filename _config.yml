@@ -31,6 +31,7 @@ skip_render:
   - 'images/**'
   - README.md
   - atom.html
+  - to-oss.js
 
 
 # Writing
