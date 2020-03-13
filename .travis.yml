@@ -22,6 +22,7 @@ install:
 
 
 before_script:
+  - mkdir tools
   - cd ./tools
   ## 下载阿里云 OSS Linux 客户端
   - wget -nc https://liuhu-img.oss-cn-hongkong.aliyuncs.com/common/deploy/ossutil64
