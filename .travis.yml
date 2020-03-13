@@ -28,7 +28,7 @@ script:
   - hexo cache clean
   - hexo g
   - hexo douban
-  - hexo d
+  - hexo deploy
 
 
 after_script:
