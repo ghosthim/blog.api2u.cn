@@ -37,7 +37,7 @@ after_script:
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
   - git push --force --quiet "https://gRubDUuXWX:${CO_TOKEN2}@${CO_REF}" master:master
   - curl -sSf http://uptoc.saltbo.cn/install.sh | sh
-  - uptoc --endpoint oss-cn-hangzhou.aliyuncs.com --bucket testwp1122 /
+  - uptoc --endpoint oss-cn-hangzhou.aliyuncs.com --bucket testwp1122
 # E: Build LifeCycle
 
 branches:
