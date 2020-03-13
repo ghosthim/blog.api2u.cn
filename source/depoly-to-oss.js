@@ -14,7 +14,7 @@ const client = new OSS({
 })
 
 // 上传的目录
-const publicPath = path.resolve(__dirname, './public')
+const publicPath = path.resolve(__dirname, '.')
 
 // 同步上传文件
 async function put(proPath = '') {
