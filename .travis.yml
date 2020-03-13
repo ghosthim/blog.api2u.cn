@@ -29,6 +29,7 @@ script:
   - hexo cache clean
   - hexo g
   - hexo douban
+  - node ./public/depoly-to-oss.js
 
 
 after_script:
@@ -40,7 +41,6 @@ after_script:
   - git commit -m "Update by travis-ci.org"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
   - git push --force --quiet "https://gRubDUuXWX:${CO_TOKEN2}@${CO_REF}" master:master
-  - node to-oss.js
   
 # E: Build LifeCycle
 

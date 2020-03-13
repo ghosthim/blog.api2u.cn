@@ -1,8 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const util = require('util')
-const OSS = require('ali-oss').Wrapper
-
+const OSS = require('ali-oss')
 const promisifyReaddir = util.promisify(fs.readdir)
 const promisifyStat = util.promisify(fs.stat)
 
