@@ -28,7 +28,7 @@ before_script:
   - wget -nc https://liuhu-img.oss-cn-hongkong.aliyuncs.com/common/deploy/ossutil64
   - chmod 755 ossutil64
   ## 配置 OSS 客户端, 包括 OSS 地址，accessKeyID accessKeySecret，使用方式可以参考 https://www.alibabacloud.com/help/zh/doc-detail/50452.htm
-  - ./ossutil64 config -e "oss-cn-hongkong.aliyuncs.com" -i "${UPTOC_UPLOADER_KEYID}" -k "${UPTOC_UPLOADER_KEYID}"
+  - ./ossutil64 config -e "oss-cn-hongkong.aliyuncs.com" -i "${UPTOC_UPLOADER_KEYID}" -k "${UPTOC_UPLOADER_KEYSECRET}"
   ## 替换 Hexo 插件，使其支持静态部署
   - cd ../node_modules/hexo/lib/plugins/helper
   - wget -N https://liuhu-img.oss-cn-hongkong.aliyuncs.com/common/deploy/list_categories.js
