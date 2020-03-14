@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>api2u&#39;s Blog</title>
+  
+  <subtitle>:D</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.api2u.me/"/>
+  <updated>2020-03-14T04:45:36.939Z</updated>
+  <id>https://blog.api2u.me/</id>
+  
+  <author>
+    <name>api2u</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新域名，yes！</title>
+    <link href="https://blog.api2u.me/new-domain.html"/>
+    <id>https://blog.api2u.me/new-domain.html</id>
+    <published>2020-03-05T20:20:00.000Z</published>
+    <updated>2020-03-14T04:45:36.939Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天无意间查询我这个域名的 whois 时发现，我的注册商也就是阿里云并没有 whois 保护，名字啥的我不在意主要是直接把我邮箱也给搞出来这行不好吧。由于国内注册商都需要实名制，来强制你注册时使用真实身份，我寻思着去 GoDaddy 搞个 .com，哪成想他这么贵啊，比国内注册商贵不少呢，本打算放弃了偶然发现 api2u.cn 在 <a href="gandi.net">Gandi</a> 那很便宜，续费也就 100 左右，都这么便宜的 .me 域名还要啥自行车。整上！</p><p><img src="https://img.api2u.cn/2020/03/05/15834117818630.png" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天无意间查询我这个域名的 whois 时发现，我的注册商也就是阿里云并没有 whois 保护，名字啥的我不在意主要是直接把我邮箱也给搞出来这行不好吧。由于国内注册商都需要实名制，来强制你注册时使用真实身份，我寻思着去 GoDaddy 搞个 .com，哪成想他这么贵啊，比国
+      
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="https://blog.api2u.me/categories/Blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hey 2020!</title>
+    <link href="https://blog.api2u.me/hey-2020.html"/>
+    <id>https://blog.api2u.me/hey-2020.html</id>
+    <published>2020-02-02T20:20:00.000Z</published>
+    <updated>2020-03-14T04:45:36.939Z</updated>
+    
+    <content type="html"><![CDATA[<p>留作纪念🥳。</p><p>2020-02-02  20:20</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;留作纪念🥳。&lt;/p&gt;
+&lt;p&gt;2020-02-02  20:20&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>中文文案排版指北（简体中文版）</title>
+    <link href="https://blog.api2u.me/paiban-help.html"/>
+    <id>https://blog.api2u.me/paiban-help.html</id>
+    <published>2020-02-01T00:00:00.000Z</published>
+    <updated>2020-03-14T04:45:36.939Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>此文案排版指北转载自<a href="https://sparanoid.com/note/chinese-copywriting-guidelines/" target="_blank" rel="noopener">https://sparanoid.com/note/chinese-copywriting-guidelines/</a></p></blockquote><h2 id="空格"><a href="#空格" class="headerlink" title="空格"></a>空格</h2><p>「有研究显示，打字的时候不喜欢在中文和英文之间加空格的人，感情路都走得很辛苦，有七成的比例会在 34 岁的时候跟自己不爱的人结婚，而其余三成的人最后只能把遗产留给自己的猫。毕竟爱情跟书写都需要适时地留白。</p><p>与大家共勉之。」——<a href="https://github.com/vinta/pangu.js" target="_blank" rel="noopener">vinta/paranoid-auto-spacing</a></p><a id="more"></a><h3 id="中英文之间需要增加空格"><a href="#中英文之间需要增加空格" class="headerlink" title="中英文之间需要增加空格"></a>中英文之间需要增加空格</h3><p>正确：</p><blockquote><p>在 LeanCloud 上，数据存储是围绕 <code>AVObject</code> 进行的。</p></blockquote><p>错误：</p><blockquote><p>在LeanCloud上，数据存储是围绕<code>AVObject</code>进行的。</p></blockquote><blockquote><p>在 LeanCloud上，数据存储是围绕<code>AVObject</code> 进行的。</p></blockquote><p>完整的正确用法：</p><blockquote><p>在 LeanCloud 上，数据存储是围绕 <code>AVObject</code> 进行的。每个 <code>AVObject</code> 都包含了与 JSON 兼容的 key-value 对应的数据。数据是 schema-free 的，你不需要在每个 <code>AVObject</code> 上提前指定存在哪些键，只要直接设定对应的 key-value 即可。</p></blockquote><p>例外：「豆瓣FM」等产品名词，按照官方所定义的格式书写。</p><h3 id="中文与数字之间需要增加空格"><a href="#中文与数字之间需要增加空格" class="headerlink" title="中文与数字之间需要增加空格"></a>中文与数字之间需要增加空格</h3><p>正确：</p><blockquote><p>今天出去买菜花了 5000 元。</p></blockquote><p>错误：</p><blockquote><p>今天出去买菜花了 5000元。</p></blockquote><blockquote><p>今天出去买菜花了5000元。</p></blockquote><h3 id="数字与单位之间无需增加空格"><a href="#数字与单位之间无需增加空格" class="headerlink" title="数字与单位之间无需增加空格"></a>数字与单位之间无需增加空格</h3><p>正确：</p><blockquote><p>我家的光纤入户宽带有 10Gbps，SSD 一共有 10TB。</p></blockquote><p>错误：</p><blockquote><p>我家的光纤入户宽带有 10 Gbps，SSD 一共有 20 TB。</p></blockquote><p>另外，度／百分比与数字之间不需要增加空格：</p><p>正确：</p><blockquote><p>今天是 233° 的高温。</p></blockquote><blockquote><p>新 MacBook Pro 有 15% 的 CPU 性能提升。</p></blockquote><p>错误：</p><blockquote><p>今天是 233 ° 的高温。</p></blockquote><blockquote><p>新 MacBook Pro 有 15 % 的 CPU 性能提升。</p></blockquote><h3 id="全角标点与其他字符之间不加空格"><a href="#全角标点与其他字符之间不加空格" class="headerlink" title="全角标点与其他字符之间不加空格"></a>全角标点与其他字符之间不加空格</h3><p>正确：</p><blockquote><p>刚刚买了一部 iPhone，好开心！</p></blockquote><p>错误：</p><blockquote><p>刚刚买了一部 iPhone ，好开心！</p></blockquote><h3 id="ms-text-autospace-to-the-rescue"><a href="#ms-text-autospace-to-the-rescue" class="headerlink" title="-ms-text-autospace to the rescue?"></a><code>-ms-text-autospace</code> to the rescue?</h3><p>Microsoft 有个 <a href="http://msdn.microsoft.com/en-us/library/ie/ms531164(v=vs.85).aspx" target="_blank" rel="noopener"><code>-ms-text-autospace</code></a> 的 CSS 属性可以实现自动为中英文之间增加空白。不过目前并未普及，另外在其他应用场景，例如 OS X、iOS 的用户界面目前并不存在这个特性，所以请继续保持随手加空格的习惯。</p><h2 id="标点符号"><a href="#标点符号" class="headerlink" title="标点符号"></a>标点符号</h2><h3 id="不重复使用标点符号"><a href="#不重复使用标点符号" class="headerlink" title="不重复使用标点符号"></a>不重复使用标点符号</h3><p>正确：</p><blockquote><p>德国队竟然战胜了巴西队！</p></blockquote><blockquote><p>她竟然对你说「喵」？！</p></blockquote><p>错误：</p><blockquote><p>德国队竟然战胜了巴西队！！</p></blockquote><blockquote><p>德国队竟然战胜了巴西队！！！！！！！！</p></blockquote><blockquote><p>她竟然对你说「喵」？？！！</p></blockquote><blockquote><p>她竟然对你说「喵」？！？！？？！！</p></blockquote><h2 id="全角和半角"><a href="#全角和半角" class="headerlink" title="全角和半角"></a>全角和半角</h2><p>不明白什么是全角（全形）与半角（半形）符号？请查看维基百科词条『<a href="http://zh.wikipedia.org/wiki/%E5%85%A8%E5%BD%A2%E5%92%8C%E5%8D%8A%E5%BD%A2" target="_blank" rel="noopener">全角和半角</a>』。</p><h3 id="使用全角中文标点"><a href="#使用全角中文标点" class="headerlink" title="使用全角中文标点"></a>使用全角中文标点</h3><p>正确：</p><blockquote><p>嗨！你知道嘛？今天前台的小妹跟我说「喵」了哎！</p></blockquote><blockquote><p>核磁共振成像（NMRI）是什么原理都不知道？JFGI！</p></blockquote><p>错误：</p><blockquote><p>嗨! 你知道嘛? 今天前台的小妹跟我说 “喵” 了哎!</p></blockquote><blockquote><p>嗨!你知道嘛?今天前台的小妹跟我说”喵”了哎!</p></blockquote><blockquote><p>核磁共振成像 (NMRI) 是什么原理都不知道? JFGI!</p></blockquote><blockquote><p>核磁共振成像(NMRI)是什么原理都不知道?JFGI!</p></blockquote><h3 id="数字使用半角字符"><a href="#数字使用半角字符" class="headerlink" title="数字使用半角字符"></a>数字使用半角字符</h3><p>正确：</p><blockquote><p>这件蛋糕只卖 1000 元。</p></blockquote><p>错误：</p><blockquote><p>这件蛋糕只卖 １０００ 元。</p></blockquote><p>例外：在设计稿、宣传海报中如出现极少量数字的情形时，为方便文字对齐，是可以使用全角数字的。</p><h3 id="遇到完整的英文整句、特殊名词，其內容使用半角标点"><a href="#遇到完整的英文整句、特殊名词，其內容使用半角标点" class="headerlink" title="遇到完整的英文整句、特殊名词，其內容使用半角标点"></a>遇到完整的英文整句、特殊名词，其內容使用半角标点</h3><p>正确：</p><blockquote><p>乔布斯那句话是怎么说的？「Stay hungry, stay foolish.」</p></blockquote><blockquote><p>推荐你阅读《Hackers &amp; Painters: Big Ideas from the Computer Age》，非常的有趣。</p></blockquote><p>错误：</p><blockquote><p>乔布斯那句话是怎么说的？「Stay hungry，stay foolish。」</p></blockquote><blockquote><p>推荐你阅读《Hackers＆Painters：Big Ideas from the Computer Age》，非常的有趣。</p></blockquote><h2 id="名词"><a href="#名词" class="headerlink" title="名词"></a>名词</h2><h3 id="专有名词使用正确的大小写"><a href="#专有名词使用正确的大小写" class="headerlink" title="专有名词使用正确的大小写"></a>专有名词使用正确的大小写</h3><p>大小写相关用法原属于英文书写范畴，不属于本 wiki 讨论內容，在这里只对部分易错用法进行简述。</p><p>正确：</p><blockquote><p>使用 GitHub 登录</p></blockquote><blockquote><p>我们的客户有 GitHub、Foursquare、Microsoft Corporation、Google、Facebook, Inc.。</p></blockquote><p>错误：</p><blockquote><p>使用 github 登录</p></blockquote><blockquote><p>使用 GITHUB 登录</p></blockquote><blockquote><p>使用 Github 登录</p></blockquote><blockquote><p>使用 gitHub 登录</p></blockquote><blockquote><p>使用 gｲんĤЦ8 登录</p></blockquote><blockquote><p>我们的客户有 github、foursquare、microsoft corporation、google、facebook, inc.。</p></blockquote><blockquote><p>我们的客户有 GITHUB、FOURSQUARE、MICROSOFT CORPORATION、GOOGLE、FACEBOOK, INC.。</p></blockquote><blockquote><p>我们的客户有 Github、FourSquare、MicroSoft Corporation、Google、FaceBook, Inc.。</p></blockquote><blockquote><p>我们的客户有 gitHub、fourSquare、microSoft Corporation、google、faceBook, Inc.。</p></blockquote><blockquote><p>我们的客户有 gｲんĤЦ8、ｷouЯƧquﾑгє、๓เςг๏ร๏Ŧt ς๏гק๏гคtเ๏ภn、900913、ƒ4ᄃëв๏๏к, IПᄃ.。</p></blockquote><p>注意：当网页中需要配合整体视觉风格而出现全部大写／小写的情形，HTML 中请使用标准的大小写规范进行书写；并通过 <code>text-transform: uppercase;</code>／<code>text-transform: lowercase;</code> 对表现形式进行定义。</p><h3 id="不要使用不地道的缩写"><a href="#不要使用不地道的缩写" class="headerlink" title="不要使用不地道的缩写"></a>不要使用不地道的缩写</h3><p>正确：</p><blockquote><p>我们需要一位熟悉 JavaScript、HTML5，至少理解一种框架（如 Backbone.js、AngularJS、React 等）的前端开发者。</p></blockquote><p>错误：</p><blockquote><p>我们需要一位熟悉 Js、h5，至少理解一种框架（如 backbone、angular、RJS 等）的 FED。</p></blockquote><h2 id="争议"><a href="#争议" class="headerlink" title="争议"></a>争议</h2><p>以下用法略带有个人色彩，既：无论是否遵循下述规则，从语法的角度来讲都是<strong>正确</strong>的。</p><h3 id="链接之间增加空格"><a href="#链接之间增加空格" class="headerlink" title="链接之间增加空格"></a>链接之间增加空格</h3><p>用法：</p><blockquote><p>请 <a href="#">提交一个 issue</a> 并分配给相关同事。</p></blockquote><blockquote><p>访问我们网站的最新动态，请 <a href="#">点击这里</a> 进行订阅！</p></blockquote><p>对比用法：</p><blockquote><p>请<a href="#">提交一个 issue</a> 并分配给相关同事。</p></blockquote><blockquote><p>访问我们网站的最新动态，请<a href="#">点击这里</a>进行订阅！</p></blockquote><h3 id="简体中文使用直角引号"><a href="#简体中文使用直角引号" class="headerlink" title="简体中文使用直角引号"></a>简体中文使用直角引号</h3><p>用法：</p><blockquote><p>「老师，『有条不紊』的『紊』是什么意思？」</p></blockquote><p>对比用法：</p><blockquote><p>“老师，‘有条不紊’的‘紊’是什么意思？”</p></blockquote><h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><table><thead><tr><th>仓库</th><th>语言</th></tr></thead><tbody><tr><td><a href="https://github.com/vinta/paranoid-auto-spacing" target="_blank" rel="noopener">vinta/paranoid-auto-spacing</a></td><td>JavaScript</td></tr><tr><td><a href="https://github.com/huei90/pangu.node" target="_blank" rel="noopener">huei90/pangu.node</a></td><td>Node.js</td></tr><tr><td><a href="https://github.com/huacnlee/auto-correct" target="_blank" rel="noopener">huacnlee/auto-correct</a></td><td>Ruby</td></tr><tr><td><a href="https://github.com/sparanoid/space-lover" target="_blank" rel="noopener">sparanoid/space-lover</a></td><td>PHP (WordPress)</td></tr><tr><td><a href="https://github.com/NauxLiu/auto-correct" target="_blank" rel="noopener">nauxliu/auto-correct</a></td><td>PHP</td></tr><tr><td><a href="https://github.com/hotoo/pangu.vim" target="_blank" rel="noopener">hotoo/pangu.vim</a></td><td>Vim</td></tr><tr><td><a href="https://github.com/sparanoid/grunt-auto-spacing" target="_blank" rel="noopener">sparanoid/grunt-auto-spacing</a></td><td>Node.js (Grunt)</td></tr><tr><td><a href="https://github.com/hjiang/scripts/blob/master/add-space-between-latin-and-cjk" target="_blank" rel="noopener">hjiang/scripts/add-space-between-latin-and-cjk</a></td><td>Python</td></tr></tbody></table><h2 id="谁在这样做？"><a href="#谁在这样做？" class="headerlink" title="谁在这样做？"></a>谁在这样做？</h2><table><thead><tr><th>网站</th><th>文案</th><th>UGC</th></tr></thead><tbody><tr><td><a href="http://www.apple.com/cn/" target="_blank" rel="noopener">Apple 中国</a></td><td>Yes</td><td>N/A</td></tr><tr><td><a href="http://www.apple.com/hk/" target="_blank" rel="noopener">Apple 香港</a></td><td>Yes</td><td>N/A</td></tr><tr><td><a href="http://www.apple.com/tw/" target="_blank" rel="noopener">Apple 台湾</a></td><td>Yes</td><td>N/A</td></tr><tr><td><a href="http://www.microsoft.com/zh-cn/" target="_blank" rel="noopener">Microsoft 中国</a></td><td>Yes</td><td>N/A</td></tr><tr><td><a href="http://www.microsoft.com/zh-hk/" target="_blank" rel="noopener">Microsoft 香港</a></td><td>Yes</td><td>N/A</td></tr><tr><td><a href="http://www.microsoft.com/zh-tw/" target="_blank" rel="noopener">Microsoft 台湾</a></td><td>Yes</td><td>N/A</td></tr><tr><td><a href="https://leancloud.cn/" target="_blank" rel="noopener">LeanCloud</a></td><td>Yes</td><td>N/A</td></tr><tr><td><a href="https://www.zhihu.com/" target="_blank" rel="noopener">知乎</a></td><td>Yes</td><td>部分用户达成</td></tr><tr><td><a href="https://www.v2ex.com/" target="_blank" rel="noopener">V2EX</a></td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://segmentfault.com/" target="_blank" rel="noopener">SegmentFault</a></td><td>Yes</td><td>部分用户达成</td></tr><tr><td><a href="http://apple4us.com/" target="_blank" rel="noopener">Apple4us</a></td><td>Yes</td><td>N/A</td></tr><tr><td><a href="https://www.wandoujia.com/" target="_blank" rel="noopener">豌豆荚</a></td><td>Yes</td><td>N/A</td></tr><tr><td><a href="https://ruby-china.org/" target="_blank" rel="noopener">Ruby China</a></td><td>Yes</td><td>标题达成</td></tr><tr><td><a href="https://phphub.org/" target="_blank" rel="noopener">PHPHub</a></td><td>Yes</td><td>标题达成</td></tr></tbody></table><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ul><li><a href="http://grammar.about.com/od/punctuationandmechanics/a/Guidelines-For-Using-Capital-Letters.htm" target="_blank" rel="noopener">Guidelines for Using Capital Letters</a></li><li><a href="http://en.wikipedia.org/wiki/Letter_case" target="_blank" rel="noopener">Letter case - Wikipedia</a></li><li><a href="http://www.oxforddictionaries.com/words/punctuation" target="_blank" rel="noopener">Punctuation - Oxford Dictionaries</a></li><li><a href="https://owl.english.purdue.edu/owl/section/1/6/" target="_blank" rel="noopener">Punctuation - The Purdue OWL</a></li><li><a href="http://www.wikihow.com/Use-English-Punctuation-Correctly" target="_blank" rel="noopener">How to Use English Punctuation Corrently - wikiHow</a></li><li><a href="https://zh.opensuse.org/index.php?title=Help:%E6%A0%BC%E5%BC%8F" target="_blank" rel="noopener">格式 - openSUSE</a></li><li><a href="http://zh.wikipedia.org/wiki/%E5%85%A8%E5%BD%A2%E5%92%8C%E5%8D%8A%E5%BD%A2" target="_blank" rel="noopener">全角和半角 - 维基百科</a></li><li><a href="http://zh.wikipedia.org/wiki/%E5%BC%95%E8%99%9F" target="_blank" rel="noopener">引号 - 维基百科</a></li><li><a href="http://zh.wikipedia.org/wiki/%E7%96%91%E5%95%8F%E9%A9%9A%E5%98%86%E8%99%9F" target="_blank" rel="noopener">疑问惊叹号 - 维基百科</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;此文案排版指北转载自&lt;a href=&quot;https://sparanoid.com/note/chinese-copywriting-guidelines/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://sparanoid.com/note/chinese-copywriting-guidelines/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;空格&quot;&gt;&lt;a href=&quot;#空格&quot; class=&quot;headerlink&quot; title=&quot;空格&quot;&gt;&lt;/a&gt;空格&lt;/h2&gt;&lt;p&gt;「有研究显示，打字的时候不喜欢在中文和英文之间加空格的人，感情路都走得很辛苦，有七成的比例会在 34 岁的时候跟自己不爱的人结婚，而其余三成的人最后只能把遗产留给自己的猫。毕竟爱情跟书写都需要适时地留白。&lt;/p&gt;
+&lt;p&gt;与大家共勉之。」——&lt;a href=&quot;https://github.com/vinta/pangu.js&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;vinta/paranoid-auto-spacing&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>豆瓣年度总结</title>
+    <link href="https://blog.api2u.me/douban.html"/>
+    <id>https://blog.api2u.me/douban.html</id>
+    <published>2019-12-30T00:00:00.000Z</published>
+    <updated>2020-03-14T04:45:36.939Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>豆瓣年度总结</p></blockquote><p>先给出图，后续可能会写一篇文章，来总结一下。<br>可能会咕咕咕。</p><p>咕咕咕～</p><a id="more"></a><p><img src="https://img.api2u.cn/2019/12/30/15776945857529.jpg" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;豆瓣年度总结&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;先给出图，后续可能会写一篇文章，来总结一下。&lt;br&gt;可能会咕咕咕。&lt;/p&gt;
+&lt;p&gt;咕咕咕～&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="https://blog.api2u.me/categories/Blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>浅谈民谣唱法（流行演唱与歌曲写作作业）</title>
+    <link href="https://blog.api2u.me/lizhi.html"/>
+    <id>https://blog.api2u.me/lizhi.html</id>
+    <published>2019-11-27T00:00:00.000Z</published>
+    <updated>2020-03-14T04:45:36.939Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>“飞机飞过天空,天空之城，落雨下的黄昏的我们，此刻我在异乡的夜里，感觉着你忽明忽暗”</p></blockquote><p>相信喜欢听歌的人早已反应过来，这是被誉为“民谣一哥”的李志的一首《天空之城》，说起民谣，就不得不讲一下民谣唱法了。</p><a id="more"></a><p>民谣唱法形成于20世纪30年代。从那时起,流行歌手的演唱就已然离不开电声扩音了，他们的表演风格基本上都是手持话筒，嘴巴紧贴麦克风。由于话筒的运用，歌手们只需用说话般的音量轻轻哼唱，再通过电声扩大，听众就可以非常清楚地听到演唱者的音色效果。由于借助电声等技术手段，一些非常细微的变化与艺术处理就都能淋漓尽致地展示出来。这种唱法在声音的听觉上较为自然，所用音量不大，音域也不宽，唱起来接近说话，声音自然扁靠前为多。民谣唱法的优势在于它不需要演唱者过多的声音训练，但一定要吐字清晰、乐感好，演唱中大多使用“本嗓”，不刻意追求声音的音色效果和共鸣，并能巧妙地运用电声音响。如果离开了这种技术手段，演唱就失去了那份威力，声音就显得单薄了。因此，也正是由于这种技术手段的应用才为后来流行演唱的继承与传播奠定了坚实的基础。民谣唱法朴实自然，贴近人们的生活。80年代中期以后，我国的通俗歌曲及演唱在发展中逐渐走向了新的阶段。许多中青年作曲家将中国民歌音调与西方现代通俗音乐的写作手法融为一体，以中国民族文化和历史为创作源泉，加上大量的中国传统乐器，创作出大量的属于我们自己的民谣歌曲，形成了独具中国特色的民谣歌曲形式，此外，不少民谣歌手偏爱用浓重的鼻音，也常在高声部的伴唱中使用轻柔透明的假声，使声音极具抒情色彩，亲切而温馨,并在不断的艺术实践变化中，日趋形成更加完美的、深受大众欢迎的歌唱风格。民谣唱法在世界各国的通俗演唱中都占有非常重要的地位，它不只限于民族歌手，同时还包括一些摇滚歌手。下面用开头出现的那位歌手—李志，来讲一下民谣歌手本身及现代民谣歌曲的发展状态。<br>我认识李志还是从他那首《天空之城》开始的。李志，江苏常州人，中国内地民谣男歌手。2009年9月，推出第四张个人音乐专辑《我爱南京》，专辑里的一首《天空之城》使得他被更多的人所喜欢。其实早在2005年，李志的《梵高先生》被放在“摇滚南京”网站上而被人转载无数。早期的李志更像是一名摇滚歌手，他的部分作品充满了他对现实的不满。现代快报曾评论道“李志不写虚伪的句子，不高雅，不世俗，他的曲子不华丽，不做作，不重复，他的歌中只有淡淡的调子和偶尔的愤激。李志拥有的民间世俗幽默和半吊子艺术情怀，三七分成呈现在专辑的原创部分里。他的中文词汇系统，是一套80年代诗歌、90年代摇滚乐、00年代网络空间的混合体，虽显琐碎，但不繁杂。他有市井理想，又不愿放弃艺术的投机，他的歌词散发着盖不住孤芳自赏的酸腐气味。他戏谑而深情，深情而又中庸。他就像中世纪欧洲的吟游诗人，抱着一把木吉他游荡世间，弹唱而出的歌既不清雅也不低俗，只是淡淡地用真情唱出他对这个世界最平凡的爱。”我觉得这个对李志的评价再准确不过了，显然他就是一个这样的人。嗓音沙哑，而且还有口音，算不上传统意义上的好嗓子，可是他却深情款款。李志有一种低沉的孤独蛰伏在每一个音符里，他唱出了城市里所有的孤独。李志的歌需要一个人听才好，需要失落时听才入味。李志的出现给内地民谣歌曲的创作提供可更多的可能，他让民谣歌曲的歌词可以像摇滚歌曲那样，富有更多另人思考和品味的部分，给予枯燥的歌词以活力，让听者都能发自内心的体会到他的那种对某件事情的深刻的思考，自此民谣也有了“内味”。也正是它的出现让人们对民谣界多了一分认识，现代民谣不在乎长相，民谣更不在乎唱功，现代民谣想呈现给人们的是一个“真实”的世界，更想给予人们更多思考的空间，而不是整天沉寂在流行音乐的感召中。在流行音乐满天的现在，民谣给人们了一丝自我的空间。“你最深层的恐惧是什么？”，“没有办法拯救自己，没有办法推动人类的进步。”李志正通过歌曲这个媒介向人们传达着他的理想，而民谣无意识他的“主阵地”。李志一直在用他的巡演“叁叁肆计划”感召更多的人，他曾写道“我想再用12年，在全国334个地级市做334场演出：普及现场音乐。让更多人听到、看到、参与到现代音乐中来。”，这就是李志的魅力，这也是民谣的魅力，我想李志传递的不止是现场音乐，更是一种精神。一种在时代洪流裹挟下，小人物心酸苦楚背后所缺乏的大无畏精神。在千千万万个平凡的小人物中，我们也只是其中一个更平凡的个体，万幸没有被湮灭在历史进程的浪潮里。当历史进程继续向前推进，或许有一天李志再回过头看一看当年从小镇里走出自己，看到那道孤独、迷茫、漠然的背影，他也会感慨物是人非。虽然这个计划在今年早些时候因某些原因不得不停止，李志本人也不得不消失在人们的视野中。但是我想说这不会消灭你的精神，更不会消灭民谣的精神，这只会让这精神更加坚强，更加有力。<br>所以如若要问为什么民谣能够流行起来，我觉得除了上面所谈及的民谣的发展过程，还有一个必须要讲的，那就是民谣它“真实”，引用豆瓣一位网友说的“民谣没唱法，喜欢怎么唱就怎么唱。”在很多人看来民谣因没有固定的唱法，上面谈及的唱法形式也只是大体上的概括，经过这么多代民谣歌手的再发展，民谣的唱法形式早已不拘束于最初的那些，但是民谣唱法不会变的核心就是“自由、真实”。在现如今这个互相交融的社会，我想民谣和民谣唱法定会继续发展下去，走向更辽阔的明天。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;“飞机飞过天空,天空之城，落雨下的黄昏的我们，此刻我在异乡的夜里，感觉着你忽明忽暗”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;相信喜欢听歌的人早已反应过来，这是被誉为“民谣一哥”的李志的一首《天空之城》，说起民谣，就不得不讲一下民谣唱法了。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="project" scheme="https://blog.api2u.me/categories/project/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于手机的一些思考</title>
+    <link href="https://blog.api2u.me/about-phone.html"/>
+    <id>https://blog.api2u.me/about-phone.html</id>
+    <published>2019-11-08T00:00:00.000Z</published>
+    <updated>2020-03-14T04:45:36.939Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>现在是晚上 11 点，顶着睡意想写一点。</p></blockquote><p>写这篇博文的原因，是因为 iOS 每周的屏幕使用时间报告，我收到通知，上一周我的手机使用时长平均是 6小时/天 ，这个数字的确惊到了我，六个小时能干什么，我在外面待一天学习一天，高效率的学习时长加起来可能都不到六个小时，我之前说自己玩手机不会「上瘾」，因为我觉得我不会用手机玩游戏，我压根对手机游戏不感冒，可现在看来我真的对手机「上瘾」了。</p><blockquote><p>一天使用六个小时的手机，我都干了些什么？</p></blockquote><p><img src="https://i.loli.net/2019/11/14/975JLwRTiDnIZSA.jpg" alt></p><p>从这张图可以看出，使用时常最多的是周六。而一周当中使用最多的是 Baicizhan ，因为对英语无感的缘故，所以一直用它来背单词，这个可以理解。位二的是 Safari ，也就是浏览器，我记不得是看了些什么了，不过 iOS 也有记录每个网址的时间，主要是 GitHub 的一些网站，这样的话估计是我前些天找 hexo 主题的时候算上的，再就是南方公园官网还有一些其他人的博客……待续</p>]]></content>
+    
+    <summary type="html">
+    
+      手机到底对我们有多大的影响
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="https://blog.api2u.me/categories/Blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo list</title>
+    <link href="https://blog.api2u.me/hexo-qu.html"/>
+    <id>https://blog.api2u.me/hexo-qu.html</id>
+    <published>2019-09-30T00:00:00.000Z</published>
+    <updated>2020-03-14T04:45:36.939Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>未在 <code>front</code> 中指定日期的，将在每一次渲染后自动生成为当前日期。</li><li>_config.yml 文件中的  <code>timeline</code>  配置中 <code>word</code> 中不会渲染 Markdown 格式。</li><li>_config.yml 文件中的  <code>timeline</code>  配置中 <code>word</code> 中不能使用 <code>:</code> ，否则会出发错误 (暂。</li></ol><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      深入理解 Hexo
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="https://blog.api2u.me/categories/Blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>近况 21/9</title>
+    <link href="https://blog.api2u.me/jinkuangmd.html"/>
+    <id>https://blog.api2u.me/jinkuangmd.html</id>
+    <published>2019-09-20T23:10:19.000Z</published>
+    <updated>2020-03-14T04:45:36.939Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>好像好久没有给博客更新东西啦，就这今天这个空闲来写点东西吧，关于我的近况。</p></blockquote><a id="more"></a><h1 id="从闲鱼上购置了一台-PSP-2000。"><a href="#从闲鱼上购置了一台-PSP-2000。" class="headerlink" title="从闲鱼上购置了一台 PSP 2000。"></a>从闲鱼上购置了一台 PSP 2000。</h1><p>小时候每当看到 PSP 游戏机，就会投出羡慕的眼光，07/08 年谁要是买一款 PSP 真的会令人羡慕死，还好过去了接近 12年 我有机会体验一下 SONY 的这款掌机，就当作是满足小时候的愿望了吧。PSP2000本体 + 32GB记忆棒 加起来一共 310元 ，还算是可以吧，机子是破解好的，完美破解，游戏下到记忆棒上就可以玩，可以说是一本满足。<br><img src="/images/posts/jinkuang/0921.jpg" alt></p><h1 id="从阿里云购置一个-cn-域名。"><a href="#从阿里云购置一个-cn-域名。" class="headerlink" title="从阿里云购置一个 .cn 域名。"></a>从阿里云购置一个 .cn 域名。</h1><p>先解释一下吧，我现在在用的这个 .me 域名是 GitHub 学生包礼赠送的，注册商是 NameCheap , 我之前考虑的是用这个 .me 域名，毕竟 .me 域名可以看到域名是与我个人内容相关，但但但是 .me 域名续费实在是太贵了，像我这种穷苦学生根本消费不起啊，虽然说是续费一年，但也有点贵啊，反正在我没有找到事情来赚钱的情况下，我是不会续费这个域名的了。这时我就选择了 .cn 域名，它便宜 是真的便宜，但是它是我国的国别域名，我买了之后就着手直接备案，然后等备案过了以后再考虑要不要把这个博客迁回国内，这样也方便管理。域名的话现在先不说吧，等备案结束以后在公布吧。</p><h1 id="给手机吃上了-iOS-13-的蛋糕"><a href="#给手机吃上了-iOS-13-的蛋糕" class="headerlink" title="给手机吃上了 iOS 13 的蛋糕"></a>给手机吃上了 iOS 13 的蛋糕</h1><p>手机之前一直停留在 iOS 12.1 ,为的是留住越狱，但是听说了 13 的新功能之后，我下决心更新了，先是用 u0 解除越狱状态，然后用 iTunes 下载固件升级，由于手机存储的东西有点多，再加上备份的时候传输速度由于数据线不是原装的而很慢，更新总共花了两个多小时，不过还是可以的，挺香的，我的建议是现在没升级的尽量留在低版本再观望几天，升级了的也没必要急着降级，虽然说新系统对有 3D Touch 的手机不是很友好、操作上也有一些 BUG ，但是就应用的启动速度上来说的确有提升。香！<br><img src="/images/posts/jinkuang/09212.jpg" alt></p><h1 id="最近脑子是越来越不好使了。"><a href="#最近脑子是越来越不好使了。" class="headerlink" title="最近脑子是越来越不好使了。"></a>最近脑子是越来越不好使了。</h1><p>我觉得我的记忆力时好时坏，有时候记单词很轻松有时候就很难，最近也老是忘事，不知道是咋了，费劲啊。</p><h1 id="学校外商业街的夜晚其实也挺美的"><a href="#学校外商业街的夜晚其实也挺美的" class="headerlink" title="学校外商业街的夜晚其实也挺美的"></a>学校外商业街的夜晚其实也挺美的</h1><p><img src="/images/posts/jinkuang/09211.jpg" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;好像好久没有给博客更新东西啦，就这今天这个空闲来写点东西吧，关于我的近况。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="https://blog.api2u.me/categories/Blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>再见 CloudXNS</title>
+    <link href="https://blog.api2u.me/bye-cloudxns.html"/>
+    <id>https://blog.api2u.me/bye-cloudxns.html</id>
+    <published>2019-07-08T19:21:52.000Z</published>
+    <updated>2020-03-14T04:45:36.939Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>为贯彻国家网络安全政策法规，加强监管力度，更好的服务于 VIP 客户，我司将于2019年7月16日0时起，停止免费使用我司 CloudXNS 客户的服务，有意向使用 VIP 服务的用户，请尽快与我司联系！</p></blockquote><a id="more"></a><p><img src="https://blog.api2u.cn/images/posts/cloudxns/79.png" alt></p><blockquote><p>CloudXNS是中国最大的电信中立互联网基础设施服务商——世纪互联集团（NASDAQ：VNET）旗下北京快网自主研发全新架构的智能DNS解析系统，提供多元化智能DNS解析服务。支持添加任何后缀的域名。除了支持所有标准解析类型之外，更增加了AX、CNAME、LINK等丰富的多种解析类型。私有线路更是可以自己定义IP段去访问指定的主机服务器。宕机监控和永久免费的口号也吸引了不少用户。</p></blockquote><p>今天正看着如有乐享的 Blog 寻思着再捡点垃圾，突然看到了一篇推荐国内外免费 DNS 解析商的文章，我就看了下，结果才知道 CloudXNS 竟然宣布停止对免费用户的解析服务，官网声明页面如上图，我本人对 CloudXNS 的印象一直很好，那么今天我就来聊一下 CloudXNS 吧。</p><p>在使用 CloudXNS 之前，我跟大多数人一样用着 DNSPOD 的解析服务，那是图的就是他的免费和稳定，但是，随着用户数量的增加， DNSPOD 的服务变得越来越坑，解析速度也大不如以前。在 15年3月14日 拿到了自己第一个非免费的顶级域名 mcart.science ，</p><p><img src="https://blog.api2u.cn/images/posts/cloudxns/7902.png" alt></p><p>我就把他的解析迁到了 CloudXNS ，当时CloudXNS 给我感觉就是简洁、简洁、简洁。我当时就觉得他是我用过最好的域名解析服务商了，就是到了今天我还在用着 CloudXNS ，也就是这个 youngje.me 域名的解析还在 CloudXNS ，</p><p><img src="https://blog.api2u.cn/images/posts/cloudxns/7901.png" alt></p><p>八年，2011年 正式上线，2019年 正式停止免费解析服务器，正如 如有乐享 所说“该来的还是来了，这世上根本没有‘永久’的免费服务！”，是的，这次 CloudXNS 给出的 VIP 套餐是 <code>2.4w元/年</code> ，2.4W 的价格让我这种平民彻底与它无缘，看到这样的情况我很是失望，也许真的在当今互联网空间，慢慢不会在有免费这种说法。</p><p>7月16日 之后我暂时没有想好还有什么国内“能用”的 DNS 解析商，我会暂时把所有的域名解析转移到 DNS.COM 之后在看着说吧。</p><p>最后希望付费后的 CloudXNS 能秉持之前简约的风格慢慢走下去，再见 CloudXNS 。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;为贯彻国家网络安全政策法规，加强监管力度，更好的服务于 VIP 客户，我司将于2019年7月16日0时起，停止免费使用我司 CloudXNS 客户的服务，有意向使用 VIP 服务的用户，请尽快与我司联系！&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="https://blog.api2u.me/categories/Blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>清明假期记录</title>
+    <link href="https://blog.api2u.me/qingming.html"/>
+    <id>https://blog.api2u.me/qingming.html</id>
+    <published>2019-04-04T23:58:05.000Z</published>
+    <updated>2020-03-14T04:45:36.939Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>就这样清明假期就悄然开始了，从前些天起就跟我这俩dd室友讨论去哪玩，北京、天津、河南、青岛都想过，由于时间跟开支原因我们最终还是定下了来爬泰山（去年高考完跟同学爬过一次的。</p></blockquote><a id="more"></a><h1 id="4-4-下午开始爬山"><a href="#4-4-下午开始爬山" class="headerlink" title="4/4 下午开始爬山"></a>4/4 下午开始爬山</h1><pre><code>不留字，只上图。</code></pre><p><em>上山开始</em><br><img src="/images/posts/qingming/img1.jpg" alt></p><p><em>打卡南天门</em><br><img src="/images/posts/qingming/img2.jpg" alt></p><h1 id="5-4-凌晨观日出"><a href="#5-4-凌晨观日出" class="headerlink" title="5/4 凌晨观日出"></a>5/4 凌晨观日出</h1><p><em>日出前的火烧云</em><br><img src="/images/posts/qingming/img3.jpg" alt></p><p><em>由于雾太大，刚露头的太阳</em><br><img src="/images/posts/qingming/img4.jpg" alt></p><p>下午回学校，睡了一下午。</p><h1 id="6-4-学校"><a href="#6-4-学校" class="headerlink" title="6/4 学校"></a>6/4 学校</h1><p>玩了一上午，图书馆学习一下午。</p><h1 id="7-4-学校"><a href="#7-4-学校" class="headerlink" title="7/4 学校"></a>7/4 学校</h1><p>玩了一上午，宿舍学习一下午。</p><pre><code>清明假期就这么完事了？！</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;就这样清明假期就悄然开始了，从前些天起就跟我这俩dd室友讨论去哪玩，北京、天津、河南、青岛都想过，由于时间跟开支原因我们最终还是定下了来爬泰山（去年高考完跟同学爬过一次的。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="https://blog.api2u.me/categories/Blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello world,Hello Blog.</title>
+    <link href="https://blog.api2u.me/Hey-my-new-blog.html"/>
+    <id>https://blog.api2u.me/Hey-my-new-blog.html</id>
+    <published>2019-01-26T00:00:00.000Z</published>
+    <updated>2020-03-14T04:45:36.939Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Update 2019/03/27:成功申请到 GITHUB  <a href="https://education.github.com/pack" target="_blank" rel="noopener">Student Developer Pack</a> ，把博客主题从 Hux Blog 更改为 mzlogin 样式，并更换域名到 youngje.me，开启了新的博客之旅。</strong></p><a id="more"></a><p>2019年1月26日 </p><p>搭建博客成功</p><p>2019年2月7日 </p><p>折腾了这么长时间总算是明白用 github 搭建的 blog 的正确食用方法了(太不容易了，之前的 ghosthim.ga 域名也快到期了，阳哥提供的网站空间也因为经过一次从jp到hk的转移中没能留下什么，虽然我自己这边有之前的 backup 但是也没有空间去放，想想就这样吧，本来不想再弄来着（因为并没有免费而且稳定的网站空间提供我来使用，但无意间看到可以用 github 来搭建 blog 就想着来试试，哪知这么繁琐，不过还好总算是弄好了，github 值得信赖而且也免费，就有时在大陆境内访问会比较慢，但也可以，毕竟在这边没有任何的审查，想说啥想些啥都行。<br>就这样吧以后就决定在github这边写东西了，至于域名嘛暂时没有钱去注册域名，再说绑定域名以后就无了 HTTPS ，先这样吧，反正没人看，我自己记住域名就好了。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;Update 2019/03/27:成功申请到 GITHUB  &lt;a href=&quot;https://education.github.com/pack&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Student Developer Pack&lt;/a&gt; ，把博客主题从 Hux Blog 更改为 mzlogin 样式，并更换域名到 youngje.me，开启了新的博客之旅。&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="https://blog.api2u.me/categories/Blog/"/>
+    
+    
+  </entry>
+  
+</feed>
