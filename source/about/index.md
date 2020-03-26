@@ -11,7 +11,7 @@ comments: true
 
 ## 关于 api2u
 
-我是 api2u 。![](https://tva1.sinaimg.cn/large/007X8olVly1g8mfiwjvucj3046038wej.jpg)
+我是 api2u 。[开心 ]
 
 一个喜欢政治的理工科学生。
 
