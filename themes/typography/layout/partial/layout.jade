@@ -1,5 +1,10 @@
 doctype
 html(lang="zh-CN")
+script(src='https://cdn.jsdelivr.net/gh/isecret/alu-face@master/src/js/alu.js')
+        script.
+          ALU({element:document.getElementsByTagName("article")[0]})
+
+
     head
         include head
 
@@ -15,9 +20,6 @@ html(lang="zh-CN")
                         include footer
     
 
-        script(src='https://cdn.jsdelivr.net/gh/isecret/alu-face@master/src/js/alu.js')
-        script.
-          ALU({element:document.getElementsByTagName("article")[0]})
         script(src= url_for('https://cdn.api2u.cn/js/jquery-3.1.0.min.js'))
         script(src= url_for('https://cdn.api2u.cn/js/bootstrap.min.js'))
         script(src= url_for('https://cdn.api2u.cn/js/jquery-migrate-1.2.1.min.js'))
