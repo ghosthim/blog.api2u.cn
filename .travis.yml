@@ -19,6 +19,7 @@ install:
 # - npm uninstall hexo-generator-feed
   - npm install hexo-douban --save
 # - npm install hexo-deployer-ali-oss --save
+  - npm install owo --save
 
 
 before_script:
