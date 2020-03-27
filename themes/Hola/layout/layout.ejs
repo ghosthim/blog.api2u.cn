@@ -1,0 +1,145 @@
+
+<%
+var pageTitle = page.title || config.subtitle || '';
+if (is_archive()) pageTitle = __('sidebar.archive');
+if (is_tag()) pageTitle = __('title.tag') +' - '+ page.tag;
+if (is_category()) pageTitle = __('title.category') +' - '+ page.category;
+if (is_month()) pageTitle += ': ' + page.month + '/' + page.year;
+if (is_year()) pageTitle += ': ' + page.year;
+pageTitle += ' | ' + config.title;
+if (is_home()) pageTitle = config.title;
+%>
+
+<!DOCTYPE html>
+<html lang="<%=config.language%>">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="baidu-site-verification" content="<%=theme.baidu_verification%>" />
+    <% if (page.keywords !== undefined) { %>
+        <meta name="keywords" content="<%=page.keywords%>" />
+    <% } else if (page.tags !== undefined && page.tags.length > 0) { %>
+        <meta name="keywords" content="<% page.tags.forEach(function(tag) { %><%=tag.name%>,<% }); %>" />
+    <% } else if (theme.keywords !== undefined) { %>
+        <meta name="keywords" content="<%=theme.keywords%>" />
+    <% } %>
+    <%-open_graph()%>
+    <title><%=pageTitle%></title>
+    <link rel="shortcut icon" type="image/x-icon" href="<%=theme.favicon%>">
+    <% if (theme.stylesheets !== undefined && theme.stylesheets.length > 0) { %>
+        <% theme.stylesheets.forEach(function(url) { %>
+            <link rel="stylesheet" href="<%=url%>">
+        <% }); %>
+    <% } %>
+    <% if (theme.tencent_analytics !== undefined) { %>
+        <script type="text/javascript">
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "//tajs.qq.com/stats?sId=<%=theme.tencent_analytics%>";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    <% } %>
+</head>
+<body>
+    <div class="container">
+        <div class="header-outer">
+            <div class="header-site">
+                <div class="header-title">
+                    <%=config.title%>
+                </div>
+                <div id="hitokoto" class="header-subtitle">
+                    <%=config.subtitle%>
+                </div>
+            </div>
+            <div class="header-menu">
+                <% Object.keys(theme.menu).forEach(function(key, num) { %>
+                    <% if (__('nav.'+key) !== "nav."+key) { %>
+                        <span class="header-nav">
+                            <a href="<%=theme.menu[key]%>"><%=__('nav.'+key)%></a>
+                        </span>
+                    <% } else {%>
+                        <span class="header-nav">
+                            <a href="<%=theme.menu[key]%>"><%=key%></a>
+                        </span>
+                    <% } %>
+                    <% if (Object.keys(theme.menu).length - 1 > num) { %>
+                        <span class="flag">/</span>
+                    <% } %>
+                <% }); %>
+            </div>
+        </div>
+
+        <div id="content-outer">
+            <div id="content-inner">
+                <%- body %>
+            </div>
+        </div>
+
+        <div class="footer-outer">
+            <div class="footer-items">
+                <span class="footer-copyright">
+                    <i class="fa fa-copyright"></i>
+                </span>
+                <span class="footer-year">
+                    <%=theme.since%> - <%=time(new Date(),'Y')%>
+                </span>
+                <span class="footer-author">
+                    <%=config.author%>
+                </span>
+                <%if (theme.footer_wordcount == 'enabled') { %>
+                    <span class="footer-wordcount">
+                        <i class="fa fa-pencil footer-icon"></i>
+                        Has <%=totalcount(site)%> words.
+                    </span>
+                <% } %>
+            </div>
+            <div class="footer-inner">
+                <span class="footer-other">
+                    <%-theme.footer_expand%>
+                    <%= __('misc.theme')%> <a href="https://github.com/isecret/Hola">Hola</a> / <a href="http://hexo.io">Hexo</a>.
+                </span>
+            </div>
+        </div>
+    </div>
+    <% if (theme.scripts !== undefined && theme.scripts.length > 0) { %>
+        <% theme.scripts.forEach(function(url) { %>
+            <script src="<%=url%>"></script>
+        <% }); %>
+    <% } %>
+    <% if (is_post() || is_page()) { %>
+        <script>
+            var gitment = new Gitment({
+                id: window.location.pathname.replace(/(\/$)/g,"").length > 49 ? md5(window.location.pathname): window.location.pathname.replace(/(\/$)/g,""),
+                owner: "<%=theme.gitment.owner%>",
+                repo: "<%=theme.gitment.repo%>",
+                oauth: {
+                    client_id: "<%=theme.gitment.client_id%>",
+                    client_secret: "<%=theme.gitment.client_secret%>"
+                }
+            });
+            gitment.render("gitment");
+        </script>
+    <% } %>
+    <% if (theme.hitokoto == 'enabled') { %>
+    <script>
+        fetch('https://api.hitokoto.cn')
+            .then(function (res){
+                return res.json();
+            })
+            .then(function (data) {
+                var hitokoto = document.getElementById('hitokoto');
+                hitokoto.innerText = '『' + data.hitokoto + '』——' + '「' + data.from + '」';
+            })
+            .catch(function (err) {
+                console.error(err);
+            });
+    </script>
+    <% } %>
+    <script data-no-instant>InstantClick.init();</script>
+</body>
+</html>

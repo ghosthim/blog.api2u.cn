@@ -1,0 +1,67 @@
+
+# 站点关键字
+keywords: "Api2u Blog"
+
+# 建站日期
+since: 2015
+
+# 导航栏
+menu:
+  homepage: /
+  About: /about
+  Links: /links
+  #API: https://openapi.link/
+
+# 联系方式
+social:
+  QQ:
+  邮箱:
+  微博:
+  GitHub:
+  Coding:
+
+# 底部字数统计，需安装 hexo-wordcount 插件
+# 安装命令 npm install hexo-wordcount，然后启用为 enabled
+footer_wordcount: enabled
+
+# 底部版权补充
+footer_expand: 'Hosted by <a href="https://pages.coding.me">Coding Pages</a>, '
+
+# 站点微缩图
+favicon: /favicon.ico
+
+# 站点 Logo
+logo: /favicon.png
+
+# 一言 hitokoto
+hitokoto: disabled
+
+# 百度站点验证
+#baidu_verification: izYGvTM67i
+
+# Gitment
+#gitment:
+  #owner: isecret
+  #repo: comments
+  #client_id: fd2eb35d0541586fff12
+  #client_secret: fa17cd5c6e7d5740eef3095b2de3bc196c655b1a
+
+# 腾讯统计
+#tencent_analytics: 65849732
+
+# CSS 样式表路径
+stylesheets:
+- /css/fonts.css
+- /css/font-awesome.min.css
+- /css/gitment.css
+- /css/highlight.css
+- /css/hola.css
+
+# Javascript 脚本路径
+scripts:
+- /js/jquery.min.js
+- /js/fetch.min.js
+- /js/md5.min.js
+- /js/instantclick.min.js
+- /js/gitment.browser.min.js
+- /js/hola.js
