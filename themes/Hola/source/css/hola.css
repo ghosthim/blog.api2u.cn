@@ -332,9 +332,9 @@ blockquote {
 .recent-posts img, .post img, .page img, .archive img, .tag img, .category img, .archive img {
     box-sizing: border-box;
     margin: auto;
-    border: 1px solid #ddd;
+    border: 1px solid #F8F8F8;
     border-radius: 4px;
-    box-shadow: 5px 5px 10px #DDD;
+    box-shadow: 5px 5px 10px #F8F8F8;
 }
 
 hr {
