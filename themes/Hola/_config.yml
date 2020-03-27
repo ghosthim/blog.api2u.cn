@@ -1,23 +1,25 @@
 
 # 站点关键字
-keywords: "Api2u Blog"
+keywords: "api2u Blog"
 
 # 建站日期
 since: 2015
 
 # 导航栏
 menu:
-  homepage: /
+  Home: /
+  Archives: /archives
   About: /about
-  Links: /links
+  Movies: /movies
+  History: /history
   #API: https://openapi.link/
 
 # 联系方式
 social:
   QQ:
-  邮箱:
+  邮箱: i@api2u.me
   微博:
-  GitHub:
+  GitHub: ghosthim
   Coding:
 
 # 底部字数统计，需安装 hexo-wordcount 插件
@@ -25,7 +27,7 @@ social:
 footer_wordcount: enabled
 
 # 底部版权补充
-footer_expand: 'Hosted by <a href="https://pages.coding.me">Coding Pages</a>, '
+footer_expand: 'Hosted by <a href="https://www.aliyun.com/product/oss">Aliyun OSS</a>, '
 
 # 站点微缩图
 favicon: /favicon.ico
