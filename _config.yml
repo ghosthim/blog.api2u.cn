@@ -29,6 +29,7 @@ i18n_dir: :lang
 skip_render:
   - CNAME
   - 'images/**'
+  - 'OwO/**'
   - README.md
   - atom.html
   - to-oss.js
