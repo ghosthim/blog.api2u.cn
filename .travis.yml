@@ -37,6 +37,9 @@ before_script:
   - wget -N https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/hexo-oss/paginator.js
   - wget -N https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/hexo-oss/tagcloud.js
   - cd -
+  - cd ../node_modules/marked/lib
+  - wget -N https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/hexo-marked/marked.js
+  - cd - 
   - cd ..
 
 script:
