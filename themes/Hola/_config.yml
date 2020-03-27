@@ -37,17 +37,17 @@ logo: /favicon.png
 hitokoto: disabled
 
 # 百度站点验证
-#baidu_verification: izYGvTM67i
+baidu_verification: 
 
 # Gitment
-#gitment:
-  #owner: isecret
-  #repo: comments
-  #client_id: fd2eb35d0541586fff12
-  #client_secret: fa17cd5c6e7d5740eef3095b2de3bc196c655b1a
+gitment:
+  owner: ghosthim
+  repo: api2u-cdn
+  client_id: a27e7b3219037d96a5ca
+  client_secret: 6898411f4f3956f1fd0ee76b5f4f0c689e24128d
 
 # 腾讯统计
-#tencent_analytics: 65849732
+tencent_analytics: 
 
 # CSS 样式表路径
 stylesheets:
