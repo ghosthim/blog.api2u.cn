@@ -6,7 +6,7 @@ cache:
   directories:
   - node_modules #cache models to speed up the build
 before_install:
-#  - rm -rf node_modules
+  - rm -rf node_modules
 
 
 # S: Build Lifecycle
