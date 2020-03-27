@@ -56,6 +56,7 @@ stylesheets:
 - /css/gitment.css
 - /css/highlight.css
 - /css/hola.css
+- /css/alu.css
 
 # Javascript 脚本路径
 scripts:
@@ -65,3 +66,5 @@ scripts:
 - /js/instantclick.min.js
 - /js/gitment.browser.min.js
 - /js/hola.js
+- /js/alu.min.js
+- /js/alu.js
