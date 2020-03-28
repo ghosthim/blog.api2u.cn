@@ -43,9 +43,9 @@ baidu_verification:
 # Gitment
 gitment:
   owner: ghosthim
-  repo: api2u-cdn
-  client_id: a27e7b3219037d96a5ca
-  client_secret: 6898411f4f3956f1fd0ee76b5f4f0c689e24128d
+  repo: siteshow
+  client_id: 33c48a5302663d6cb62c
+  client_secret: b504cf9938d10219d43a2336b9288734cf47638c
 
 # 腾讯统计
 tencent_analytics: 
