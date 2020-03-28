@@ -38,7 +38,7 @@ logo: /favicon.png
 hitokoto: disabled
 
 # 百度站点验证
-baidu_verification: 
+#baidu_verification: 
 
 # Gitment
 #gitment:
@@ -48,7 +48,7 @@ baidu_verification:
   #client_secret: b504cf9938d10219d43a2336b9288734cf47638c
 
 # 腾讯统计
-tencent_analytics: 
+#tencent_analytics: 
 
 # CSS 样式表路径
 stylesheets:
