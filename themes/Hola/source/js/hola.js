@@ -1,4 +1,1 @@
-/**
- * Gitment 配置
- * https://imsun.net/posts/gitment-introduction/
- */
+document.addEventListener("touchmove",function(e){1!==e.scale&&e.preventDefault()},!1);var lastTouchEnd=0;document.addEventListener("touchend",function(e){var t=(new Date).getTime();t-lastTouchEnd<=300&&e.preventDefault(),lastTouchEnd=t},!1);
