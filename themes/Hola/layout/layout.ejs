@@ -112,19 +112,6 @@ if (is_home()) pageTitle = config.title;
         <% }); %>
     <% } %>
     <% if (is_post() || is_page()) { %>
-//        <script>
-//            var gitment = new Gitment({
-//                id: window.location.pathname.replace(/(\/$)/g,"").length > 49 ? md5(window.location.pathname): window.location.pathname.replace(/(\/$)/g,""),
-//                owner: "<%=theme.gitment.owner%>",
-//                repo: "<%=theme.gitment.repo%>",
-//               oauth: {
-//                    client_id: "<%=theme.gitment.client_id%>",
-//                    client_secret: "<%=theme.gitment.client_secret%>"
-//                }
-//            });
-//            gitment.render("gitment");
-//        </script>
-//  弃用gitment评论系统
     <% } %>
     <% if (theme.hitokoto == 'enabled') { %>
     <script>

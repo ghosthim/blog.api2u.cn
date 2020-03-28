@@ -22,7 +22,6 @@ install:
   - npm install owo --save
   - npm install hexo-renderer-ejs --save
   - npm install hexo-wordcount --save
-  - npm install --save gitment
 
 
 before_script:
