@@ -64,6 +64,5 @@ scripts:
 - /js/jquery.min.js
 - /js/fetch.min.js
 - /js/md5.min.js
-- /js/instantclick.min.js
 - /js/hola.js
 - /js/alu.js
