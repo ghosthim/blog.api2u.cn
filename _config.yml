@@ -33,6 +33,7 @@ skip_render:
   - README.md
   - atom.html
   - to-oss.js
+  - LICENSE
 
 
 # Writing
