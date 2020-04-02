@@ -50,10 +50,19 @@ description: 本就不公平。
    硬 盘	        建兴 CV1-8B256 ( 256 GB / 固态硬盘 )		
    显 卡	        Nvidia GeForce GTX 950M ( 4 GB / 宏碁 )		
    光驱	        建兴 DVD A DA8AESH DVD刻录机
-   
    ```
+   
 
    
+3. Dell G3 3579
+
+   ```
+   处理器(CPU)	英特尔 Core i7-8750H @ 2.20GHz 六核		
+   主 板	         戴尔 03TF0Y		
+   内 存	         8 GB ( 镁光 DDR4 2666MHz )		
+   硬 盘	         SK hynix SC311 SATA 128GB ( 128 GB / 固态硬盘 )		
+   显 卡      	 Nvidia GeForce GTX 1050 Ti ( 4 GB / 戴尔 )		
+   ```
 
 
 
