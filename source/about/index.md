@@ -27,6 +27,8 @@ description: 本就不公平。
 
 开源项目 [Github.com/ghosthim](https://github.com/ghosthim)
 
+维基条目 [Wiki/user:Api2u](https://zh.wikipedia.org/wiki/User:Api2u)
+
  *其他请参照个人主页[api2u.cn](http://api2u.cn)的其他相关项目。
 
 ## 我的设备
