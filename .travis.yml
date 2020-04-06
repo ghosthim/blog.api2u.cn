@@ -22,6 +22,7 @@ install:
   - npm install owo --save
   - npm install hexo-renderer-ejs --save
   - npm install hexo-wordcount --save
+  - npm install doctoc -g
 
 
 before_script:
@@ -43,6 +44,9 @@ before_script:
   - wget -N https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/hexo-marked/marked.js
   - cd - 
   - cd ..
+  - cd ./source/faq
+  - doctoc index.md
+  - cd -
 
 script:
   - hexo cache clean
