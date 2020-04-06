@@ -3,6 +3,10 @@ layout: page
 title: FAQ
 ---
 
+[TOC]
+
+
+
 ##### Q：什么是FAQ？
 
 Api2u：[不出所料]FAQ顾名思义是 Frequently Asked Questions 的英文缩写，译为“常见问题与解答”或“常见问答集”。
