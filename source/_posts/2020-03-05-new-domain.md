@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: 新域名，yes！
