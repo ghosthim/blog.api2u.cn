@@ -54,6 +54,4 @@
         </div>
     <% } %>
 </div>
-<% if (!index && post.comments && (theme.gentie_productKey || theme.duoshuo_shortname || theme.disqus_shortname || theme.uyan_uid || theme.wumii || theme.livere_shortname || theme.gitment.owner || theme.valine.enable)){ %>
-        <%- partial('comment') %>
-      <% } %>
+<%- partial('comment') %>
