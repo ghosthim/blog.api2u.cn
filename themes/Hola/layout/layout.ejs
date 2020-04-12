@@ -103,21 +103,21 @@ if (is_home()) pageTitle = config.title;
     <% if (is_post() || is_page()) { %>
     <% } %>
 	<script>
-		var notify = <%= theme.valine.notify %> == true ? true : false;
-		var verify = <%= theme.valine.verify %> == true ? true : false;
-		var visitor = <%= theme.valine.visitor %> == true ? true : false;
-  new Valine({
-      el: '#vcomments',
-				notify: notify,
-				verify: verify,
-    	app_id: '<%= theme.valine.app_id %>',
-      app_key: '<%= theme.valine.app_key %>',
-			lang: 'en',
-			placeholder: '<%= theme.valine.placeholder %>',
-			avatar: '<%= theme.valine.avatar %>',
-			pageSize: <%= theme.valine.pageSize %>,
-			visitor: visitor
-        });
+             var notify = <%= theme.valine.notify %> == true ? true : false;
+             var verify = <%= theme.valine.verify %> == true ? true : false;
+             var visitor = <%= theme.valine.visitor %> == true ? true : false;
+         new Valine({
+             el: '#vcomments',
+             notify: notify,
+             verify: verify,
+             app_id: '<%= theme.valine.app_id %>',
+             app_key: '<%= theme.valine.app_key %>',
+             lang: 'en',
+             placeholder: '<%= theme.valine.placeholder %>',
+             avatar: '<%= theme.valine.avatar %>',
+             pageSize: <%= theme.valine.pageSize %>,
+             visitor: visitor
+            });
     </script>
     <% if (theme.hitokoto == 'enabled') { %>
     <script>

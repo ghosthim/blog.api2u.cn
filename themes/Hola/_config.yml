@@ -70,7 +70,6 @@ stylesheets:
 - /css/highlight.css
 - /css/hola.css
 - /css/alu.css
-- /css/valine.css
 
 # Javascript 脚本路径
 scripts:
