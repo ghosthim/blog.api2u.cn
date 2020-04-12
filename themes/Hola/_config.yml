@@ -41,6 +41,17 @@ hitokoto: disabled
 # 百度站点验证
 #baidu_verification: 
 
+valine:
+  enable: true
+  app_id: xrH1Uf9VP9SSryJxhiXuC2Td-MdYXbMMI
+  app_key: u2hYkyvjziNpfqL6T4fiH6zS
+  notify: false   #邮件提醒设置
+  verify: false   #验证码设置
+  placeholder: ヾﾉ≧∀≦)o快来评论一下吧!
+  avatar: monsterid  #头像设置
+  pageSize: 10
+  visitor: true
+
 # Gitment
 #gitment:
   #owner: ghosthim
