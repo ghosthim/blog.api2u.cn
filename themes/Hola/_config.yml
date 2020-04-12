@@ -78,3 +78,5 @@ scripts:
 - /js/md5.min.js
 - /js/hola.js
 - /js/alu.js
+- /js/Valine.min.js
+- /js/av-min.js
