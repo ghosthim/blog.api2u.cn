@@ -9,7 +9,7 @@ description: 网站版本更新日志
 
 **Update 2020/4/12: 增加 Valine 评论系统，以增强与访客的交流。**
 
-**Update 2020/3/27: 更换主题为 [Hola](https://github.com/isecret/Hola) ，我修改了一些小地方，项目地址 [ghosthim/hexo-theme-hola](https://github.com/ghosthim/hexo-theme-hola)。
+**Update 2020/3/27: 更换主题为 [Hola](https://github.com/isecret/Hola) ，我修改了一些小地方，项目地址 [ghosthim/hexo-theme-hola](https://github.com/ghosthim/hexo-theme-hola)。**
 
 **Update 2020/3/13: [blog.api2u.me](https://blog.api2u.me) 自即日起将解析到阿里云香港 OSS 空间，总体提升访问速度。**
 
