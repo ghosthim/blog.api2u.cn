@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 豆瓣电影
 description: 豆瓣电影记录页面
 ---
