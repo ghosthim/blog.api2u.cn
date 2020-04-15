@@ -9,7 +9,8 @@ since: 2015
 menu:
   Home: /
   About: /about
-  Movies: /movies
+  #Movies: /movies
+  Link: /link
   History: /history
   FAQ: /faq
   #API: https://openapi.link/
@@ -47,8 +48,8 @@ valine:
   app_key: u2hYkyvjziNpfqL6T4fiH6zS
   notify: false   #邮件提醒设置
   verify: false   #验证码设置
-  placeholder: ヾﾉ≧∀≦)o快来评论一下吧!
-  avatar: monsterid  #头像设置
+  placeholder: 有什么想说一下的吗？
+  avatar: ''  #头像设置
   pageSize: 10
   visitor: true
 
