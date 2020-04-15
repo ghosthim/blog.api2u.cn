@@ -3,8 +3,6 @@ layout: page
 title: FAQ
 ---
 
-[TOC]
-
 
 
 ##### Q：什么是FAQ？
