@@ -28,7 +28,7 @@ social:
 footer_wordcount: enabled
 
 # 底部版权补充
-footer_expand: 'Hosted by <a target="_blank" href="https://www.aliyun.com">Aliyun</a>,Serving <a target="_blank" href="https://status.api2u.me">Status</a>, '
+footer_expand: 'Hosted by <a target="_blank" href="https://www.aliyun.com">Aliyun</a>, Serving <a target="_blank" href="https://status.api2u.me">Status</a>, '
 
 # 站点微缩图
 favicon: /favicon.ico
