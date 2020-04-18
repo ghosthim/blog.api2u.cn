@@ -11,7 +11,7 @@ description: 网站版本更新日志
 
 **Update 2020/3/27: 更换主题为 [Hola](https://github.com/isecret/Hola) ，我修改了一些小地方，项目地址 [ghosthim/hexo-theme-hola](https://github.com/ghosthim/hexo-theme-hola)。**
 
-**Update 2020/3/13: [blog.api2u.me](https://blog.api2u.me) 自即日起将解析到阿里云香港 OSS 空间，总体提升访问速度。**
+**Update 2020/3/13: [blog.api2u.me](https://blog.api2u.me) 自即日起将解析到阿里云香港，总体提升访问速度。**
 
 **Update 2020/3/7: 本站正式更换域名为 [blog.api2u.me](https://blog.api2u.me)，为保证百度、谷歌等搜索引擎的收录，仍可通过 .cn 进行访问。**
 
