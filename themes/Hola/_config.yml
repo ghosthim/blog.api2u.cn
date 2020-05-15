@@ -44,8 +44,8 @@ hitokoto: disabled
 
 valine:
   enable: true
-  app_id: xrH1Uf9VP9SSryJxhiXuC2Td-MdYXbMMI
-  app_key: u2hYkyvjziNpfqL6T4fiH6zS
+  app_id: sPgTnIoJuzH1s2j11Xa0aotd-gzGzoHsz
+  app_key: afGaLBKptL5mqdxXBMnk3Rnf
   notify: false   #邮件提醒设置
   verify: false   #验证码设置
   placeholder: 有什么想说一下的吗？
