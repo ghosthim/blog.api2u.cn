@@ -47,7 +47,7 @@ before_script:
 
 script:
   - hexo cache clean
-  - hexo g
+  - hexo g --debug
 #  - hexo douban
 
 
