@@ -5,3 +5,4 @@ db.json
 *.log
 public/
 .deploy*/
+.idea
