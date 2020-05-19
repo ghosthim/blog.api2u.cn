@@ -48,7 +48,7 @@ valine:
   app_key: u2hYkyvjziNpfqL6T4fiH6zS
   notify: false   #邮件提醒设置
   verify: false   #验证码设置
-  placeholder: 有什么想说一下的吗？
+  placeholder: 有什么想说一下的吗？\n 已开启邮箱提醒，可添加 blog_comment@api2u.me 至白名单。
   avatar: ''  #头像设置
   pageSize: 10
   visitor: true
