@@ -3,7 +3,7 @@ layout: page
 title: 友链
 ---
 
-![](https://img.api2u.cn/pic/590774 (1).jpg)
+![](https://img.api2u.cn/pic/59077.jpg)
 
 ## My Friends
 
