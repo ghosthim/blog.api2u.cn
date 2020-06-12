@@ -10,7 +10,7 @@ description: 本就不公平。
 
 [被监视]我最近在听啥？
 
-<iframe src="https://open.spotify.com/embed/playlist/1CsD9DDythwVgZXSKknhkV" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/playlist/1CsD9DDythwVgZXSKknhkV" width="800" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 ## 关于 api2u
 
