@@ -43,7 +43,10 @@ before_script:
   - cd -
   - cd ../node_modules/marked/lib
   - wget -N https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/hexo-marked/marked.js
-  - cd - 
+  - cd -
+  - cd ../node_modules/hexo-renderer-mathjax
+  - wget -N https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/mathjax.html
+  - cd -
   - cd ..
 
 script:
