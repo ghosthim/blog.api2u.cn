@@ -113,7 +113,7 @@ plugins:
     hexo-prism-plugin
     hexo-toc
     hexo-generator-feed
-    hexo-renderer-mathjax
+    hexo-renderer-mathjax2
 #Feed Atom
 feed:
     type: atom
@@ -139,3 +139,5 @@ prism_plugin:
   mode: 'preprocess'
   theme: 'default'
   line_number: true 
+mathjax:
+  cdn: 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js'

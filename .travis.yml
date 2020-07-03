@@ -24,7 +24,8 @@ install:
   - npm install hexo-wordcount --save
   - npm install hexo-pangu
   - npm uninstall hexo-math --save
-  - npm install hexo-renderer-mathjax --save
+  - npm uninstall hexo-renderer-mathjax --save
+  - npm install hexo-renderer-mathjax2 --save
 
 before_script:
   - mkdir tools
@@ -44,9 +45,9 @@ before_script:
   - cd ../node_modules/marked/lib
   - wget -N https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/hexo-marked/marked.js
   - cd -
-  - cd ../node_modules/hexo-renderer-mathjax
-  - wget -N https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/mathjax.html
-  - cd -
+#  - cd ../node_modules/hexo-renderer-mathjax
+#  - wget -N https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/mathjax.html
+#  - cd -
   - cd ..
 
 script:
