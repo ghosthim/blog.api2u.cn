@@ -52,6 +52,9 @@ valine:
   avatar: ''  #头像设置
   pageSize: 10
   visitor: true
+mathjax:
+   enable: true
+
 
 # Gitment
 #gitment:
