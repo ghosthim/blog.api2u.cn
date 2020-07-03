@@ -113,6 +113,7 @@ plugins:
     hexo-prism-plugin
     hexo-toc
     hexo-generator-feed
+    hexo-math
 #Feed Atom
 feed:
     type: atom
@@ -138,3 +139,15 @@ prism_plugin:
   mode: 'preprocess'
   theme: 'default'
   line_number: true 
+ 
+ math:
+  engine: 'mathjax' # or 'katex'
+  mathjax:
+    src: custom_mathjax_source
+    config:
+      # MathJax config
+  katex:
+    css: custom_css_source
+    js: custom_js_source # not used
+    config:
+      # KaTeX config

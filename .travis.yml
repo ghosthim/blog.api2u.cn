@@ -23,8 +23,7 @@ install:
   - npm install hexo-renderer-ejs --save
   - npm install hexo-wordcount --save
   - npm install hexo-pangu
-  - npm install hexo-tag-dplayer --save
-
+  - npm install hexo-math --save
 
 before_script:
   - mkdir tools
