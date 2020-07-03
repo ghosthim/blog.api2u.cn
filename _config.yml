@@ -113,6 +113,7 @@ plugins:
     hexo-prism-plugin
     hexo-toc
     hexo-generator-feed
+    hexo-renderer-mathjax
 #Feed Atom
 feed:
     type: atom
