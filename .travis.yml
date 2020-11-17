@@ -67,11 +67,11 @@ after_script:
   - git push --force --quiet "https://gRubDUuXWX:${CO_TOKEN2}@${CO_REF}" master:master
 
     ## 打包静态文件
-  - zip -r blog.zip ./*
+#  - zip -r blog.zip ./*
   ## 删除OSS上旧文件
-  - ../tools/ossutil64 rm oss://api2u-blog/ -r -f
+#  - ../tools/ossutil64 rm oss://api2u-blog/ -r -f
   ## 上传zip文件
-  - ../tools/ossutil64 cp -f blog.zip oss://api2u-blog/
+#  - ../tools/ossutil64 cp -f blog.zip oss://api2u-blog/
   
 # E: Build LifeCycle
 
