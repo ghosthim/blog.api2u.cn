@@ -1,18 +1,11 @@
-language: go
-
-go:
-  - "1.8"  # 指定Golang 1.8
-
-# Specify which branches to build using a safelist
-# 分支白名单限制：只有 master 分支的提交才会触发构建
- branches:
-   only:
-     - blog
-
+language: node_js
+node_js: 10.13.0
 install:
-  # 安装最新的hugo
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Linux-64bit.deb
-  - sudo dpkg -i hugo*.deb
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Linux-64bit.deb
+    - sudo dpkg -i hugo*.deb
+    - hugo version
+    - rm -rf public
+    - npm install
 
 script:
   # 运行hugo命令
