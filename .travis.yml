@@ -27,7 +27,7 @@ after_script:
 env:
  global:
    # Github Pages
-   - GH_REF: github.com:ghosthim/try_hugo.git
+   - GH_REF: github.com/ghosthim/blog.api2u.cn.git
 
 deploy:
   provider: pages # 重要，指定这是一份github pages的部署配置
