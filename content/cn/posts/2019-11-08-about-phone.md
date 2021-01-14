@@ -1,8 +1,8 @@
 ---
 title: “关于手机的一些思考”
 date: 2020-12-03
-tags: [‘blog’]
-categories: [‘blog’]
+tags: [blog]
+categories: [blog]
 ---
 > 现在是晚上 11 点，顶着睡意想写一点。
 
