@@ -7,7 +7,10 @@ description: 本就不公平。
 > 「夕阳无限好」
 > ![](https://tva1.sinaimg.cn/large/007X8olVly1g8mf4yvxybj31400u01ky.jpg)
 >
-> 博客部署状态: [![Build Status](https://travis-ci.com/ghosthim/blog.api2u.cn.svg?branch=blog)](https://travis-ci.com/ghosthim/blog.api2u.cn)
+
+[被监视]我最近在听啥？
+
+<iframe src="https://open.spotify.com/embed/playlist/1CsD9DDythwVgZXSKknhkV" width="800" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 ## 关于 api2u
 

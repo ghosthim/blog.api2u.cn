@@ -7,6 +7,8 @@ description: 网站版本更新日志
 
 # 网站更新日志 #
 
+**Update 2020/5/19: 开启评论邮箱提醒功能，若无法正常接收请添加 blog_comment@api2u.me 至白名单，若还是无法正常接收，请联系站长。**
+
 **Update 2020/4/12: 增加 Valine 评论系统，以增强与访客的交流。**
 
 **Update 2020/3/27: 更换主题为 [Hola](https://github.com/isecret/Hola) ，我修改了一些小地方，项目地址 [ghosthim/hexo-theme-hola](https://github.com/ghosthim/hexo-theme-hola)。**
