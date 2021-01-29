@@ -1,0 +1,82 @@
+
+# 站点关键字
+keywords: "api2u Blog"
+
+# 建站日期
+since: 2015
+
+# 导航栏
+menu:
+  Home: /
+  About: /about
+  #Movies: /movies
+  Link: /link
+  History: /history
+  FAQ: /faq
+  #API: https://openapi.link/
+
+# 联系方式
+social:
+  QQ:
+  邮箱: i@api2u.me
+  微博:
+  GitHub: ghosthim
+  Coding:
+
+# 底部字数统计，需安装 hexo-wordcount 插件
+# 安装命令 npm install hexo-wordcount，然后启用为 enabled
+footer_wordcount: enabled
+
+# 底部版权补充
+footer_expand: 'Hosted by <a target="_blank" href="https://www.aliyun.com">Aliyun</a>, Serving <a target="_blank" href="https://status.api2u.me">Status</a>, '
+
+# 站点微缩图
+favicon: /favicon.ico
+
+# 站点 Logo
+logo: /favicon.png
+
+# 一言 hitokoto
+hitokoto: disabled
+
+# 百度站点验证
+#baidu_verification: 
+
+valine:
+  enable: true
+  app_id: xrH1Uf9VP9SSryJxhiXuC2Td-MdYXbMMI
+  app_key: u2hYkyvjziNpfqL6T4fiH6zS
+  notify: false   #邮件提醒设置
+  verify: false   #验证码设置
+  placeholder: 有什么想说一下的吗？
+  avatar: ''  #头像设置
+  pageSize: 10
+  visitor: true
+
+# Gitment
+#gitment:
+  #owner: ghosthim
+  #repo: siteshow
+  #client_id: 33c48a5302663d6cb62c
+  #client_secret: b504cf9938d10219d43a2336b9288734cf47638c
+
+# 腾讯统计
+#tencent_analytics: 
+
+# CSS 样式表路径
+stylesheets:
+- /css/fonts.css
+- /css/font-awesome.min.css
+- /css/gitment.css
+- /css/highlight.css
+- /css/hola.css
+- /css/alu.css
+
+# Javascript 脚本路径
+scripts:
+- /js/jquery.min.js
+- /js/fetch.min.js
+- /js/md5.min.js
+- /js/hola.js
+- /js/alu.js
+- /js/Valine.min.js

@@ -1,41 +1,78 @@
 language: node_js
-node_js: 10.13.0
+node_js: stable
+
+
+cache:
+  directories:
+  - node_modules #cache models to speed up the build
+before_install:
+  - rm -rf node_modules
+
+
+# S: Build Lifecycle
 install:
-    - wget https://github.com/gohugoio/hugo/releases/download/v0.79.0/hugo_0.79.0_Linux-64bit.deb
-    - sudo dpkg -i hugo*.deb
-    - hugo version
-    - rm -rf public
-    - npm install
+  - npm install
+# - npm install hexo-renderer-swig --save
+# - npm uninstall --save hexo-generator-category # 此处我们使用 hexo-generator-category-enhance
+# - npm install --save hexo-renderer-jade hexo-generator-archive hexo-generator-category-enhance hexo-generator-feed hexo-generator-tag
+# - npm install --save hexo-prism-plugin # 语法高亮支持
+  - npm uninstall hexo-generator-feed
+  - npm install hexo-douban --save
+# - npm install hexo-deployer-ali-oss --save
+  - npm install owo --save
+  - npm install hexo-renderer-ejs --save
+  - npm install hexo-wordcount --save
+
+
+before_script:
+  - mkdir tools
+  - cd ./tools
+  ## 下载阿里云 OSS Linux 客户端
+  - wget -nc https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/hexo-oss/ossutil64
+  - chmod 755 ossutil64
+  ## 配置 OSS 客户端, 包括 OSS 地址，accessKeyID accessKeySecret，使用方式可以参考 https://www.alibabacloud.com/help/zh/doc-detail/50452.htm
+  - ./ossutil64 config -e "oss-cn-hongkong.aliyuncs.com" -i "${UPTOC_UPLOADER_KEYID}" -k "${UPTOC_UPLOADER_KEYSECRET}"
+  ## 替换 Hexo 插件，使其支持静态部署
+  - cd ../node_modules/hexo/lib/plugins/helper
+  - wget -N https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/hexo-oss/list_categories.js
+  - wget -N https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/hexo-oss/list_tags.js
+  - wget -N https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/hexo-oss/paginator.js
+  - wget -N https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/hexo-oss/tagcloud.js
+  - cd -
+  - cd ../node_modules/marked/lib
+  - wget -N https://cdn.jsdelivr.net/gh/ghosthim/api2u-cdn@master/hexo-marked/marked.js
+  - cd - 
+  - cd ..
 
 script:
-  # 运行hugo命令
-  - hugo
+  - hexo cache clean
+  - hexo g
+#  - hexo douban
+
 
 after_script:
-  # 部署
   - cd ./public
   - git init
-  - git config user.name "api2u"
-  - git config user.email "344667237@qq.com"
+  - git config user.name "ghosthim"
+  - git config user.email "ghosthim007@gmail.com"
   - git add .
-  - git commit -m "Update Blog By TravisCI With Build $TRAVIS_BUILD_NUMBER"
-  # Github Pages
-  - git push --force --quiet "https://$GH_TOKEN@${GH_REF}" master:master
-  # Github Pages
-  - git push --quiet "https://$GH_TOKEN@${GH_REF}" master:master --tags
+  - git commit -m "Update by travis-ci.org"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+  - git push --force --quiet "https://gRubDUuXWX:${CO_TOKEN2}@${CO_REF}" master:master
 
+    ## 打包静态文件
+  - zip -r blog.zip ./*
+  ## 删除OSS上旧文件
+  - ../tools/ossutil64 rm oss://api2u-blog/ -r -f
+  ## 上传zip文件
+  - ../tools/ossutil64 cp -f blog.zip oss://api2u-blog/
+  
+# E: Build LifeCycle
+
+branches:
+  only:
+    - blog
 env:
  global:
-   # Github Pages
    - GH_REF: github.com/ghosthim/blog.api2u.cn.git
-
-deploy:
-  provider: pages # 重要，指定这是一份github pages的部署配置
-  skip-cleanup: true # 重要，不能省略
-  local-dir: public # 静态站点文件所在目录
-  # target-branch: master # 要将静态站点文件发布到哪个分支
-  github-token: $GH_TOKEN # 重要，$GITHUB_TOKEN是变量，需要在GitHub上申请、再到配置到Travis
-  # fqdn:  # 如果是自定义域名，此处要填
-  keep-history: true # 是否保持target-branch分支的提交记录
-  on:
-    branch: master # 博客源码的分支
+   - CO_REF: e.coding.net/api2u/blog.api2u.cn/blog.git

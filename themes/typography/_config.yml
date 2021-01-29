@@ -1,0 +1,29 @@
+title_primary: "API2U" # the bigger text
+title_secondary: "不存在什么中立的" # the smaller text
+keywords:
+
+twitter: #journey-ad
+rss: atom.xml
+weibo: #username/id
+instagram: #username
+github: #journey-ad
+douban: movies/
+
+# Choose the comment service according to your need.
+# Please do not use the two services at the same time.
+livere: # [data-uid] on livere.com
+disqus: # [short_name] on disqus.com
+dove: # For fun ONLY. Set to true to 'disable' comments on your site.
+valine: false
+valine_appid: 'CaQKuPQDfnfPFUkTw6MMt8ME-gzGzoHsz'
+valine_appkey: 'uWuwGS1xiIwh3zHKENc7ubyL'
+
+# Set true to show the page indicator.
+showPageCount: true
+
+# Set true to show category or tags behind post titles
+showCategories: true
+showTags: true
+
+# Color scheme
+themeStyle: light # light/dark
